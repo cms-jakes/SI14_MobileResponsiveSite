@@ -1,0 +1,14 @@
+nav a {background-color:#522c8f; color:#dcf0f2}
+.navbar {background-color:#522c8f; color:#dcf0f2}
+.navbar-nav > li > a {color: #dcf0f2;font-family:futura}
+.navbar-nav a:hover {color: #5ca820 !important; background-color:#522c8f !important}
+.dropdown {color:#522c8f}
+.dropdown-toggle {background-color:#522c8f !important}
+.dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:futura}
+.dropdown-menu >li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
+.dropdown-menu >li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
+.navbar-toggle {background-color:#dcf0f2}
+.navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
+body {background-color:#dcf0f2}
+
+
