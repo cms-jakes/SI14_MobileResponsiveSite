@@ -11,7 +11,6 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
 body {background-color:#e5f5fd}
 .btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
-
 .header {margin-left: auto; margin-right: auto; margin-bottom: 0}
 
 @font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
@@ -22,5 +21,10 @@ body {background-color:#e5f5fd}
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px}
 .ltblue {background-color:#522c8f}
 .red {background-color:#ed341f}
+.white {background-color:#fff}
 
-#keynotes {padding:3%;}
+#keynotes {padding-top:8%; padding-left:5%; padding-right:5%}
+.schedule {padding-top:6%}
+footer { position: fixed; bottom: 0; width:100%}
+.center {margin-left:auto; margin-right:auto; vertical-align: middle}
+.padding10 {padding-left:10%; padding-right:10%;}
