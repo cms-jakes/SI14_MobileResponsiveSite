@@ -1,14 +1,26 @@
-nav a {background-color:#522c8f; color:#dcf0f2}
-.navbar {background-color:#522c8f; color:#dcf0f2}
-.navbar-nav > li > a {color: #dcf0f2;font-family:futura}
+nav a {background-color:#522c8f; color:#e5f5fd}
+.navbar {background-color:#522c8f; color:#e5f5fd}
+.navbar-nav > li > a {color: #e5f5fd;font-family:futura}
 .navbar-nav a:hover {color: #5ca820 !important; background-color:#522c8f !important}
 .dropdown {color:#522c8f}
 .dropdown-toggle {background-color:#522c8f !important}
 .dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:futura}
 .dropdown-menu >li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
 .dropdown-menu >li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
-.navbar-toggle {background-color:#dcf0f2}
+.navbar-toggle {background-color:#e5f5fd}
 .navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
-body {background-color:#dcf0f2}
+body {background-color:#e5f5fd}
+.btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
 
+.header {margin-left: auto; margin-right: auto; margin-bottom: 0}
 
+@font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
+@font-family-base {font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
+
+.green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
+.purple {background-color:#522c8f}
+.blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px}
+.ltblue {background-color:#522c8f}
+.red {background-color:#ed341f}
+
+#keynotes {padding:3%;}
