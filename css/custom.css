@@ -15,16 +15,46 @@ body {background-color:#e5f5fd}
 
 @font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
 @font-family-base {font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
+@media all and (max-width: 2040px) { /* screen size until 1200px */
+    table {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    table {
+        font-size: 1.3em; /* 1.3x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    table {
+        font-size: 1.0em; /* 1.0x default size */
+        }
+    }
+@media all and (max-width: 700px) { /* screen size until 500px */
+    table {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+.f{font-family:"futura";}
 
 .green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
-.purple {background-color:#522c8f}
-.blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px}
-.ltblue {background-color:#522c8f}
-.red {background-color:#ed341f}
-.white {background-color:#fff}
-
-#keynotes {padding-top:8%; padding-left:5%; padding-right:5%}
-.schedule {padding-top:6%}
+.purple {background-color:#522c8f; margin-top:0px; margin-bottom:0px}
+.blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
+.ltblue {background-color:#e5f5fd;margin-top:0px; margin-bottom:0px}
+.red {background-color:#ed341f;margin-top:0px; margin-bottom:0px}
+.white {background-color:#fff;margin-top:0px; margin-bottom:0px}
+.center {text-align:center}
+#keynotes {padding-top:1%; padding-left:5%; padding-right:5%}
+#sessionFormat{padding-top:1%; padding-left:5%; padding-right:5%}
+#maps{padding-top:1%; padding-left:5%; padding-right:5%}
 footer { position: fixed; bottom: 0; width:100%}
 .center {margin-left:auto; margin-right:auto; vertical-align: middle}
 .padding10 {padding-left:10%; padding-right:10%;}
+.hrThick {height:3px; background-color:#e5f5fd}
+.caption{font-size:1.2em}
+
+th {font-family:"futura"; text-align:center; font-weight:bold} 
+td {font-family:"futura"; text-align:center} 
+
+.gci{background-color:#566fb0; }
+.redtxt{color:#f9c2bb}
