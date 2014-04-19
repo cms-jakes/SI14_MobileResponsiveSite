@@ -397,6 +397,7 @@ ript>
 <!-- javaScript-->
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/myscript.js"></script>
 	<script language="javascript" type="text/javascript" >
     $(document).ready(function(){
       // add 30 more rows to the table
