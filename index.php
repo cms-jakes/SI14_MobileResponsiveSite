@@ -11,120 +11,12 @@ if ($db->connect_error){
 	}
 }
 ?> 
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>CMS Summer Institute '14</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Transforming Learning for Every Student">
-<!-- Not sure about "viewport" -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-	<link rel="shortcut icon" href="favicon.ico"/>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px;
-      }
-    </style>
-		<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
-ript>
-    <![endif]-->
-  </head>
+<?php include "includes/header.php"; ?>
+<body id="home">
+<section class="ltblue">
+	<img src="images/SI_LogoTop.png" class="header img-responsive" >
 
-<body>
-<!--navbar top -->
-<div class="row">
-<nav class="navbar navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-
-      </button>
-      <a class="navbar-brand" href="#">Home</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-     <div class="collapse navbar-collapse" id="navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#theme">Theme</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Keynote Speakers<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-          	<li><a href="#morrison">Dr. Morrison: June 16th</a></li>
-          	<li><a href="#hayes">Dr. Heidi Hayes Jacobs: June 17th</a></li>
-          	<li><a href="#casap">Jaime Casap: June 18th</a></li>
-          	<li><a href="#burmark">Dr. Lynell Burmark: June 19th</a></li>
-          	<li><a href="#flood">Dr. Tim Flood: June 24th</a></li>
-          </ul>
-        </li>
-		<li><a href="#sessionsFormat">Sessions Format</a></li>
-<!--        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule by Day<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#June 16th">June 16th</a></li>
-            <li><a href="#June 17th">June 17th</a></li>
-            <li><a href="#June 18th">June 18th</a></li>
-            <li><a href="#June 19th">June 19th</a></li>
-            	<li class="divider"></li>
-			<li><a href="#June 23rd">June 23rd</a></li>
-            <li><a href="#June 24th">June 24th</a></li>
-            <li><a href="#June 25th">June 25th</a></li>
-            <li><a href="#June 26th">June 26th</a></li>            
-          </ul>
-        </li>
--->  
-<!--        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sessions by CCSS<b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#CCSS ELA Elementary School">CCSS ELA Elementary School</a></li>
-            <li><a href="#CCSS Math Elementary School">CCSS Math Elementary School</a></li>
-            <li><a href="#CCSS ELA Middle School">CCSS ELA Middle School</a></li>
-            <li><a href="#CCSS ELA Middle School">CCSS Math Middle School</a></li>
-            <li><a href="#CCSS ELA High School">CCSS ELA High School</a></li>
-            <li><a href="#CCSS ELA High School">CCSS Math High School</a></li>
-            	<li class="divider"></li>
-            <li><a href="#NCES Arts Education">NCES Arts Education</a></li>
-            <li><a href="#NCES English as a Second Language">NCES English as a Second Language</a></li>
-            <li><a href="#NCES Guidance">NCES Guidance</a></li>
-            <li><a href="#NCES Healthful Living - Health & PE">NCES Healthful Living - Health & PE</a></li>
-            <li><a href="#NCES Information and Technology">NCES Information and Technology</a></li>
-            <li><a href="#NCES Occupational Course of Study">NCES Occupational Course of Study</a></li>
-            <li><a href="#NCES Science">NCES Science</a></li>
-			<li><a href="#NCES Social Studies">NCES Social Studies</a></li>
-			<li><a href="#NCES World Languages">NCES World Languages</a></li>
-				<li class="divider"></li>
-			<li><a href="#Exceptional Children">Exceptional Children</a></li>
-			<li><a href="#Pre-K">Pre-K</a></li>
-				<li class="divider"></li>
-			<li><a href="#Standard 1">Standard 1</a></li>
-			<li><a href="#Standard 2">Standard 2</a></li>
-			<li><a href="#Standard 3">Standard 3</a></li>
-			<li><a href="#Standard 4">Standard 4</a></li>
-			<li><a href="#Standard 5">Standard 5</a></li>							
-				<li class="divider"></li>
-          </ul>
-        </li>
--->  
-        <li><a href="#maps">Maps</a></li>
-        <li><a href="#devices">Technology</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
-<img src="images/SI_LogoTop.png" class="header img-responsive" >
 <div id="theme">
 <div>
 	<?php if($message) {
@@ -133,6 +25,7 @@ ript>
 </div>
 <img src="images/SI_LogoBottom.png" class="header img-responsive" >
 </div>
+</section> 
 
 <!-- Keynotes -->
 <div class="green" id="keynotes">
@@ -372,45 +265,4 @@ ript>
 <div class="white">
 <br><br><br><br>
 </div>
-<!--footer fixed-->
-	<footer>
-		<div class="white full">
-			<div class="container center">
-				<div class="row">
-					<div class="col-xs-3"><img src="images/cms.png" class="center img-responsive padding10"></div>
-					<div class="col-xs-3"><img src="images/cpcc.png" class="center img-responsive padding10"></div>
-					<div class="col-xs-2" style="vertical-align:middle">
-								<a href="https://twitter.com/cmstothecore" target="_blank"><img src="images/twitter.png" style="vertical-align:middle" class="center img-responsive"> 
-					</div>
-					<div class="col-xs-2">
-								<a href="https://www.facebook.com/pages/CMSlearns/252786364864618?ref=hl" target="_blank"><img src="images/facebook.jpg" class="center img-responsive">
-					</div>
-					<div class="col-xs-2">	
-								<a href="https://www.youtube.com/channel/UCLplAkn21MPkCbjz_JOCaLA" target="_blank"><img src="images/youtube.png" class="center img-responsive">							
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	
-	
-<!-- javaScript-->
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/myscript.js"></script>
-	<script language="javascript" type="text/javascript" >
-    $(document).ready(function(){
-      // add 30 more rows to the table
-      var row = $('table#mytable > tbody > tr:first');
-      var row2 = $('table#mytable2 > tbody > tr:first');
-      	for (i=0; i<30; i++) {
-        	$('table#mytable > tbody').append(row.clone());
-        	$('table#mytable2 > tbody').append(row2.clone());
-      	}	
- 
-      	// make the header fixed on scroll
-      	$('.table-fixed-header').fixedHeader();
-    	});
-  </script>
-</body>
-</html>
+<?php include "includes/footer.php" ?>

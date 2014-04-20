@@ -1,8 +1,12 @@
 $(function() {
 
 	//highlight current nav
-	$("#home a:contains('Home')").parent().addClass('active');
-	
+	$("#home a:contains('SI14')").parent().addClass('active');
+	$("#KeynoteSpeakers a:contains('Keynote Speakers')").parent().addClass('active');
+	$("#maps a:contains('Maps')").parent().addClass('active');
+	$("#ASEP a:contains('ASEP Camp')").parent().addClass('active');
+	$("#ScheduleByDepartment a:contains('by Department')").parent().addClass('active');
+	$("#ScheduleByDate a:contains('by Date')").parent().addClass('active');
 	
 	
 	//make menus drop automatically
@@ -12,5 +16,5 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});
 
-
+	
 }); //jQuery is loaded

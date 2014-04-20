@@ -5,13 +5,13 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .dropdown {color:#522c8f}
 .dropdown-toggle {background-color:#522c8f !important}
 .dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:futura}
-.dropdown-menu >li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
-.dropdown-menu >li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
+.dropdown-menu > li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
+.dropdown-menu > li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
 .navbar-toggle {background-color:#e5f5fd}
 .navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
 .btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
 .header {margin-left: auto; margin-right: auto; margin-bottom: 0}
-
+.active > a {color:#ed341f !important;}
 @font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
 @font-family-base {font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
 @media all and (max-width: 2040px) { /* screen size until 1200px */
@@ -38,8 +38,36 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 
 .green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
 .purple {background-color:#522c8f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
+.purple button:hover {background-color:#5ca820 !important;}
+.ltpurple {
+/* fallback */
+  background-color: #b9aad2;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#522c8f), to(#b9aad2));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #522c8f, #b9aad2);
+	color:#e5f5fd;
+}
+
+
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
-.ltblue {background-color:#e5f5fd;margin-top:0px; margin-bottom:0px}
+.blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
+.blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
+.blue > section > div > ul > li > h4 > a {color:#5ca820 !important;}
+.blue > section > div > ul > li > h4 > a:hover {color:#20a82a !important;text-decoration:none;}
+
+.ltblue {background-color:#e5f5fd; color:#522c8f; margin-top:0px; margin-bottom:0px}
 .red {background-color:#ed341f;margin-top:0px; margin-bottom:0px}
 .white {background-color:#fff;margin-top:0px; margin-bottom:0px}
 .center {text-align:center}
@@ -73,7 +101,7 @@ td {font-family:"futura"; text-align:center}
 .gci{background-color:#566fb0; }
 .redtxt{color:#f9c2bb}
 
-body {background-color:#e5f5fd}
+body {background-color:#522c8f}
 .card {padding:5%; margin-bottom:5%}
 .register  {background-color:#ed341f;color:#000;margin-top:0px; margin-bottom:0px}
 
@@ -89,3 +117,11 @@ overflow: auto;
 overflow-x: auto;
 overflow-y: auto;
 }
+
+.popover {color:#e5f5fd}
+.popover-title {color:#e5f5fd}
+.popover-content {background-color:#522c8f; color:#e5f5fd; font-size:0.7em;}
+
+.panel-heading {background-color:#e5f5fd !important; color:#522c8f !important; }
+.panel-title > a {text-decoration:none;}
+.panel-body {background-color:#4460a8; color:#e5f5fd}
