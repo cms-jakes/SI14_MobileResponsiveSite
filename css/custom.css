@@ -80,6 +80,7 @@ footer { position: fixed; bottom: 0; width:100%}
 .hrThick {height:3px; background-color:#e5f5fd}
 .caption{font-size:1.2em}
 .left {text-align:left !important;}
+.btn-link button:hover {background-color:#fff !important;}
 
 table .header-fixed {
   position: fixed;
@@ -125,3 +126,12 @@ overflow-y: auto;
 .panel-heading {background-color:#e5f5fd !important; color:#522c8f !important; }
 .panel-title > a {text-decoration:none;}
 .panel-body {background-color:#4460a8; color:#e5f5fd}
+
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  

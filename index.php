@@ -1,176 +1,60 @@
-<?php 
-$message = '';
-$db = new MySQLi('localhost','si','si', 'SI_TestDB');
-if ($db->connect_error){
-	$message = $db->connect_error;
-}else{
-	$sql = "SELECT * FROM  `TABLE 1`" ;
-	$results = $db->query($sql);
-	if ($db->error) {
-		$message = $db->error;
-	}
-}
-?> 
-
 <?php include "includes/header.php"; ?>
 <body id="home">
-<section class="ltblue">
-	<img src="images/SI_LogoTop.png" class="header img-responsive" >
-
-<div id="theme">
-<div>
-	<?php if($message) {
-		echo"<h1>$message</h1>";
-	} ?>
-</div>
-<img src="images/SI_LogoBottom.png" class="header img-responsive" >
-</div>
-</section> 
-
-<!-- Keynotes -->
-<div class="green" id="keynotes">
-	<div class="center"><h1>Keynote Speakers</h1></div>
-	<div class="row full">
-	<!--Morrison -->
-		<div class="col-md-6" id="morrison">
-		<br><br>
-		<div class="thumbnail">
-			<div class="white center">
-				<h3 style="color:#000">Monday June 16th</h3>
-				<h2 style="color:#000">Dr. Heath Morrison</h2>
-			</div>	
-			<img src="images/morrison.jpg" class="img-thumbnail"/>
-			<div class="caption"><p>Dr. Heath E. Morrison joined Charlotte-Mecklenburg Schools in July 2012 from the Washoe County School District (Reno).</p><p>Dr. Morrison quickly established an entry plan, meeting with parents, employees, citizens and students in a series of public appearances and town hall meetings in his first 100 days. Using input and concerns from the community, he set the district’s course for his first year with The Way Forward, a document that identified key strategic goals and district direction.</p>
-			<p><a href="http://www.cms.k12.nc.us/superintendent/Pages/default.aspx" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
-	</div>
-</div>
-</div>
-	<!--Hayes-Jacobs -->
-		<div class="col-md-6" id="hayes">
-		<br><br>
-		<div class="thumbnail">
-			<div class="white center">
-				<h3 style="color:#000">Tuesday June 17th</h3>
-				<h2 style="color:#000">Dr. Heidi Hayes Jacobs</h2>
-			</div>	
-			<img src="images/hayes.jpg" class="img-thumbnail">
-			<div class="caption"><p>Dr. Heidi Hayes Jacobs, creator of Curriculum21, is also the founder and president of Curriculum Designers, Inc. and Executive Director of the National Curriculum Mapping Institute and Academy.Heidi has served as an education consultant to thousands of schools nationally and internationally. She works with schools and districts K-12 on issues and practices pertaining to: curriculum reform, instructional strategies to encourage critical thinking, and strategic planning.</p>
-				<p><a href="http://www.curriculum21.com/about/faculty/" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
+<section class="ltpurple">
+<div class="container">
+<section class="row">
+    	<div class="col-md-8">
+    		<div class="purple">
+	      		<img src="images/SI_LogoTop.png" class="header img-responsive" >
+				<img src="images/SI_LogoBottom.png" class="header img-responsive" >
 			</div>
-		</div>
-</div>
-	</div>
-	<div class="row full">
-	<!--Casap -->
-		<div class="col-md-6" id="casap">
-		<br><br>
-		<div class="thumbnail">
-		<div class="white center">
-				<h3 style="color:#000">Wednesday June 18th</h3>
-				<h2 style="color:#000">Jaime Casap</h2>
-			</div>	
-		<img src="images/casap.jpg" class="img-thumbnail">
-		<div class="caption">
-				<p>Senior Education Evangelist and Tech & Learning's "2012 Top 10 Most Influential" hoodlum from Hells Kitchen focused on leveling the playing field and making education the silver bullet to millions of students around the world. Focused on using technology and the web as the enabling capability in our classrooms and schools to transform education!</p>	</div>
-				<p><a href="http://www.jcasap.com/" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
-		</div>
-	</div>
-	<!--Burmark-->
-		<div class="col-md-6" id="burmark">
-			<br><br>
-			<div class="thumbnail">
-				<div class="white center">
-				<h3 style="color:#000">Thursday, June 19th</h3>
-				<h2 style="color:#000">Dr. Lynell Burmark</h2>
-			</div>	
+		</div><!-- col-md-8 -->
+		<div class="sidebar col-md-4">
+			<div>
+			<h3>About the Sessions</h3>
+			<ul>
+			<li>Length: 1.5, 3, 6 or 8 hours</li>
+			<li>CEUs: Awarded by the <u>number of days you attend</u>, not by sessions</li>
+			<li>A large variety of options optimized to help you find something aligned to your needs each day!</li>
+			</ul>
+				<h4>Review Session Descriptions for Each Day</h4>
+				<section class="DateButtons btn-group btn-group-justified">
+  					<div class="btn-group">							
+						<a href="June16.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 16th</a>
+          			</div>
+          			<div class="btn-group">
+		            	<a href="June17.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 17th</a>
+          			</div>
+          			<div class="btn-group">		
+		            	<a href="June18.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 18th</a>
+          			</div>
+          			<div class="btn-group">
+		            	<a href="June19.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 19th</a>
+					</div>		
+				</section> <!-- DateButtons-->
+				<br>
+				<section class="DateButtons btn-group btn-group-justified">
+  					<div class="btn-group">							
+						<a href="June23.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 23rd</a>
+					</div>
+  					<div class="btn-group">							
+		            	<a href="June24.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 24th</a>
+					</div>
+  					<div class="btn-group">									
+		            	<a href="June25.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 25th</a>
+					</div>
+  					<div class="btn-group">							
+		            	<a href="June26.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 26th</a>
+					</div>
+				</section> <!-- DateButtons-->
+            
+			</div><!-- sessionPromo-->
+		</div><!-- sidebar col-md-4 -->
+</section><!-- row  -->
+</div><!-- container -->
 
-				<img src="images/burmark.png" class="img-thumbnail"/>
-				<div class="caption">
-						<p>Winner of Stanford University’s prestigious Walter Gores Award for Excellence in Teaching, Dr. Lynell Burmark is passionate about education and the potential for learners in her presentations and yours.</p>
-						<p>Lynell’s extensive teaching experience spans kindergarten through graduate school; her visually enhanced presentations range from small-group seminars to keynotes and videoconferences for thousands of people across the globe.</p>
-						<p><a href="http://educatebetter.org/" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row full">
-	<!--Flood -->
-		<div class="col-md-6 col-md-offset-3" id="flood">
-			<br><br>
-			<div class="thumbnail">
-			<div class="white center">
-				<h3 style="color:#000">Tuesday, June 24th</h3>
-				<h2 style="color:#000">Dr. Tim Flood</h2>
-			</div>	
-
-			<img src="images/flood.jpg" class="img-thumbnail"/>
-			<div class="caption">
-				<p>Tim Flood specializes in cross-cultural communication and teaches courses on global communication, as well as segments of the Communication, Leadership and Career Management series.</p>
-				<p>He is certified to use both CultureActive and InterCultural Edge (ICE)* cross-cultural communication instruments and the Intercultural Development Inventory (IDI) global competency assessment tool.</p>
-				<p>Flood’s research interests include cross-cultural communication and global business leadership fluency.</p>
-				<p><a href="http://www.kenan-flagler.unc.edu/Global-Business-Center/programs/essentials-for-cross-cultural-business/tim-flood" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
-			</div>
-		</div>
-		</div>
-	<div class="clearfix visible-xl"></div>
-	</div>
-	<br><br>
-</div>
-<!-- End Keynotes -->
-<!-- Schedule DB -->
-<div class="purple" id="DB">
-	<div class="container">
-		<div class="center">
-			<h1>Sessions by Title</h1>
-			<h4 class="f"></h4>
-		</div>
-		<?php while ($row = $results->fetch_assoc()) { ?>
-		<div class="panel-group" id="accordion">
-  			<div class="panel panel-default">
-   				<div class="panel-heading">
-     			<h4 class="panel-title">
-        				<a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $row['ID']; ?>">
-          					<?php echo $row['Title']; ?>
-        				</a>
-			    </h4>
-    		</div>
-    	</div>
-    		<div id="collapse<?php echo $row['ID']; ?>" class="panel-collapse collapse">
-      			<div class="panel-body">
-        			<h3><?php echo $row['PrimaryPresenter']; ?>&nbsp&nbsp&nbsp<?php echo $row['SecondPresenter']; ?></h3>
-					<h4><?php echo $row['Department']; ?></h4>
-					<hr>
-					<p><?php echo $row['Description']; ?></p>
-				</div>
-    		</div>
-  		</div>
-  		<?php } ?>
-<!--		
-		<table class="table table-bordered table-responsive db header-fixed" id="mytable">
-			<thead class="header"><tr><th colspan="2">Title<br>Presenter / CCSS / Description</th></tr></thead>
-			<?php while ($row = $results->fetch_assoc()) { ?>
-				<tr>
-					<td colspan="2" class="left"><h3><?php echo $row['Title']; ?></h3></td>
-				</tr>
-				<tr>
-					<td><?php echo $row['PrimaryPresenter']; ?><br><?php echo $row['SecondPresenter']; ?></td>
-					<td><?php echo $row['Department']; ?></td>
-				</tr>
-				<tr>	
-					<td colspan="2" class="left description"><?php echo $row['Description']; ?></td>					
-				</tr>
-				<tr>
-				</tr>
-			<?php }  ?>			
-		</table>
--->
-	
-</div>
-</div>
 <!-- Schedule Format-->
-<div class="blue" id="sessionsFormat">&nbsp<br><br>
-	
-	
+<div class="blue" id="sessionsFormat">&nbsp<br><br>	
 	<div class="center">
 		<h1>Sessions Format: Week 1</h1>
 		<h4 class="f">Session descriptions will post soon!</h4>
@@ -226,7 +110,7 @@ if ($db->connect_error){
 <!-- June 25th -->
 <!-- June 26th -->
 
-</div>
+</div><!-- Schedule Format-->
 <!--Maps -->
 <div class="white" id="maps">&nbsp<br>
 <div>
@@ -242,7 +126,8 @@ if ($db->connect_error){
 		</div>
 	</div>
 </div>
-</div>
+</div><!--Maps -->
+
 <!--Technology -->
 <div class="red" id="devices">&nbsp<br>
 	<div>
@@ -261,8 +146,7 @@ if ($db->connect_error){
 		</div>		
 </div>
 </div>
-</div>
-<div class="white">
+</div><!--Technology -->
 <br><br><br><br>
-</div>
+</section><!-- ltpurple -->
 <?php include "includes/footer.php" ?>

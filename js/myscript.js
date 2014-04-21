@@ -7,6 +7,7 @@ $(function() {
 	$("#ASEP a:contains('ASEP Camp')").parent().addClass('active');
 	$("#ScheduleByDepartment a:contains('by Department')").parent().addClass('active');
 	$("#ScheduleByDate a:contains('by Date')").parent().addClass('active');
+	$("#June16th a:contains('June 16th')").parent().addClass('active');
 	
 	
 	//make menus drop automatically
@@ -16,5 +17,9 @@ $(function() {
 		$('.dropdown-menu', this).fadeOut('fast');
 	});
 
+	// carousel demo
+	 $('.carousel').carousel({
+      interval: 3000
+    })
 	
 }); //jQuery is loaded

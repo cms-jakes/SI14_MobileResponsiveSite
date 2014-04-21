@@ -22,6 +22,7 @@
 	
 	
 <!-- javaScript-->
+	
 	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/myscript.js"></script>

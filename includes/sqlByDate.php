@@ -346,5 +346,48 @@
 
 <!-- end week 2 -->
 
+<section class="results0 ltpurple" id="<?php echo str_replace(' ','',$j0)?>">
+<br><br>
+<h2 class="center"><?php echo ($j0)?></h2>
+<div class="container">
+
+<?php 
+		$i = 0;
+		while ($row = $results0->fetch_assoc()) { 	
+			if ($i % 3 === 0) { ?>
+				<section class="row">
+			<?php } ?>
+				<div class="col-md-4">
+     				<section class="blue card">
+						<div class="panel-group" id="accordion">
+  							<div class="panel panel-default">
+    						<div class="panel-heading">
+      							<h4 class="panel-title">
+        							<a data-toggle="collapse" data-parent="#accordion" href="#<?php echo str_replace(' ','',$j0) ?><?php echo $i ?>">
+          							 	<?php echo $row['Title']; ?>  <span class="caret"></span>
+          					       </a>
+      							</h4>
+    						</div><!--panel-heading-->
+    						<div id="<?php echo str_replace(' ','',$j0) ?><?php echo $i ?>" class="panel-collapse collapse">
+      							<div class="panel-body">			      					
+	        				<h4><?php echo $row['PrimaryPresenter']; ?>&nbsp&nbsp&nbsp<?php echo $row['SecondPresenter']; ?></h4>
+							<h5><?php echo $row['Date']; ?> <br> From <?php echo $row['StartTime'] ?> to <?php echo $row['EndTime']?></h5>
+							<hr>
+							<?php echo $row['Description']; ?>
+							</div><!-- panel-body -->
+							</div><!--panel-collapse collapse-->
+							</div><!--panel panel-default-->
+						<div><br> <a href="http://calendar.google.com" target="_blank"><button type="button" class="btn btn-danger">Add to Calendar</button></a><br></div>
+						</div><!--panel-group-->
+					</section> <!-- blue card -->
+				</div><!-- col-md-4 -->
+			<?php $i++;
+			if ($i % 3 === 0) { ?>
+				</section> <!-- row -->
+			<?php }  //endif
+			} //end loop ?>  
+</div><!--container-->
+</section><!-- restuls0 -->
+
 
 <!-- end unpaired resutls-->

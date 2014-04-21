@@ -48,8 +48,15 @@ ript>
         <li class="dropdown">
           <a href="#" class="nav dropdown-toggle" data-toggle="dropdown">Schedule <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="ScheduleByDepartment.php">by Department</a></li>
-            <li class="active"><a href="ScheduleByDate.php">by Date</a></li>
+            <li><a href="June16.php">June 16th</a></li>
+            <li><a href="June17.php">June 17th</a></li>
+            <li><a href="June18.php">June 18th</a></li>
+            <li><a href="June19.php">June 19th</a></li>
+			<li class="divider"></li>
+			<li><a href="June23.php">June 23rd</a></li>
+            <li><a href="June24.php">June 24th</a></li>
+            <li><a href="June25.php">June 25th</a></li>
+            <li><a href="June26.php">June 26th</a></li>
           </ul>
         </li>
 		<li><a href="registrationinfo">Registration Info</a></li>
