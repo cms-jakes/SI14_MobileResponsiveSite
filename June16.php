@@ -1,5 +1,5 @@
 <?php 
-$date= "June 16";
+$date= "June 16th";
 include "includes/callDate.php"; 
 ?>
 
@@ -21,7 +21,7 @@ include "includes/callDate.php";
 			<li><a href="#1240PM" data-toggle="tab">12:40 PM</a></li>
 			<li><a href="#220PM" data-toggle="tab">2:20 PM</a></li>
 		</ul>
-		</div><!--collapse navbar-collapse -->
+		</div><!--navbar -->
 </section><!--purple center-->
 
 <?php include "includes/sqlTimes.php" ?>

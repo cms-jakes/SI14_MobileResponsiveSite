@@ -1,5 +1,5 @@
 <?php 
-$date= "June 17";
+$date= "June 17th";
 include "includes/callDate.php"; 
 ?>
 

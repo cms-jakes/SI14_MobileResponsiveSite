@@ -22,8 +22,8 @@
     						</div><!--panel-heading-->
     						<div id="<?php echo str_replace(' ','',$j16) ?><?php echo $i ?>" class="panel-collapse collapse">
       							<div class="panel-body">			      					
-	        				<h4><?php echo $row['PrimaryPresenter']; ?>&nbsp&nbsp&nbsp<?php echo $row['SecondPresenter']; ?></h4>
-							<h5><?php echo $row['Date']; ?> <br> From <?php echo $row['StartTime'] ?> to <?php echo $row['EndTime']?></h5>
+	        				<h4><?php echo $row['Primary Presenter']; ?>&nbsp&nbsp&nbsp<?php echo $row['Second Presenter']; ?></h4>
+							<h5><?php echo $row['Start Date']; ?> <br> From <?php echo $row['Start Time'] ?> to <?php echo $row['End Time']?></h5>
 							<hr>
 							<?php echo $row['Description']; ?>
 							</div><!-- panel-body -->

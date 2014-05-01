@@ -44,7 +44,7 @@
 				<h2 style="color:#000">Dr. Heidi Hayes Jacobs</h2>
 			</div>	
 			<img src="images/hayes.jpg" class="img-thumbnail">
-			<div class="caption"><p>Dr. Heidi Hayes Jacobs, creator of Curriculum21, is also the founder and president of Curriculum Designers, Inc. and Executive Director of the National Curriculum Mapping Institute and Academy.Heidi has served as an education consultant to thousands of schools nationally and internationally. She works with schools and districts K-12 on issues and practices pertaining to: curriculum reform, instructional strategies to encourage critical thinking, and strategic planning.</p>
+			<div class="caption"><p>Dr. Heidi Hayes Jacobs, creator of Curriculum21, is also the founder and president of Curriculum Designers, Inc. and Executive Director of the National Curriculum Mapping Institute and Academy. Heidi has served as an education consultant to thousands of schools nationally and internationally. She works with schools and districts K-12 on issues and practices pertaining to: curriculum reform, instructional strategies to encourage critical thinking, and strategic planning.</p>
 				<p><a href="http://www.curriculum21.com/about/faculty/" target="_blank" class="btn-group btn-group-justified btn btn-success" role="button">Read More</a></p>
 			</div>
 		</div>

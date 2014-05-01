@@ -66,6 +66,9 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
 .blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
+.panel-body > a {color:#5ca820 !important; text-decoration:none; font-weight:bold;}
+.panel-body > a:hover {color:#5ca820 !important; text-decoration:none;}
+
 .blue > section > div > ul > li > h4 > a {color:#5ca820 !important;}
 .blue > section > div > ul > li > h4 > a:hover {color:#20a82a !important;text-decoration:none;}
 

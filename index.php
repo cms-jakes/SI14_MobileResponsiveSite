@@ -152,7 +152,7 @@
 				CPCC has a secure guest network that you will be able to connect to with your own device.<br>
 			</h4>
 				<p>
-					In order to establish a wifi connection, the CPCC network will send you a text message.  This means you will need a mobile phone that can receive the text with your wifi password.  <i>Support staff will be available to help you if you do not have a mobile phone.</i>  					
+					In order to establish a WiFi connection, the CPCC network will send you a text message.  This means you will need a mobile phone that can receive the text with your WiFi password.  <i>Support staff will be available to help you if you do not have a mobile phone.</i>  					
 				</p>
 			<br>
 			<div class="center">
@@ -161,7 +161,7 @@
 			<h4>Most sessions will expect users to have a device. Please bring your CMS issued<sup>*</sup> or personal device (laptop or tablet).</h4>
 		</div>
 		<div class="">  
-			<p><sup>*</sup>Talk to your school's leadership for more details about CMS issued devices.</p>
+			<p><sup>*</sup>Talk to your school's leadership team for more details about CMS issued devices.</p>
 		</div>		
 </div><!--Technology -->
 
@@ -173,7 +173,7 @@
 <!-- Schedule Format-->
 <div class="blue well" id="sessionsFormat">&nbsp<br><br>	
 	<div class="center">
-		<h1>Sessions Format: Week 1</h1>
+		<h2>Sessions Format: Week 1</h2>
 	</div>
 	
 	<table class="table table-responsive ">										
@@ -188,7 +188,7 @@
 	</table>	
 	<hr class="hrThick">
 	<div class="center">
-		<h1>Sessions Format: Week 2</h1>
+		<h2>Sessions Format: Week 2</h2>
 	</div>
 
 	<table class="table table-responsive ">										
@@ -208,4 +208,6 @@
 </section><!--row-2-->
 </div><!-- container row-2 -->
 </section><!-- ltpurple -->
+<div style="visibility:hidden;"><h1>CMS Summer Institute 2014</h1><br><h2>Transforming Learning for Every Student</h2></div><!-- H1 text --> 
+
 <?php include "includes/footer.php" ?>

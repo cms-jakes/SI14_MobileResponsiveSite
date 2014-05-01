@@ -15,12 +15,12 @@
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
 <!-- Button trigger modal -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY CODE']?>">
+<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
 </button>
 
 <!-- Modal -->
-<div class="modal purple fade" id="<?php echo $row['KEY CODE']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal purple fade" id="<?php echo $row['KEY']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header blue">
@@ -29,7 +29,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['Location'] ?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -42,7 +42,8 @@
     </div>
   </div>
 </div><!-- Modal-->
-     				</section><!--blue card-->
+     				</section><!--blue well-->
+     				<br>
 				</div><!-- col-md-4 -->
 			<?php $i++;
 			if ($i % 3 === 0) { ?>
@@ -68,12 +69,12 @@
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
 <!-- Button trigger modal -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY CODE']?>">
+<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
 </button>
 
 <!-- Modal -->
-<div class="modal purple fade" id="<?php echo $row['KEY CODE']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal purple fade" id="<?php echo $row['KEY']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header blue">
@@ -82,7 +83,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['Location'] ?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -95,7 +96,8 @@
     </div>
   </div>
 </div><!-- Modal-->
-     				</section><!--blue card-->
+     				</section><!--blue well-->
+     				<br>
 				</div><!-- col-md-4 -->
 			<?php $i++;
 			if ($i % 3 === 0) { ?>
@@ -121,12 +123,12 @@
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
 <!-- Button trigger modal -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY CODE']?>">
+<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
 </button>
 
 <!-- Modal -->
-<div class="modal purple fade" id="<?php echo $row['KEY CODE']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal purple fade" id="<?php echo $row['KEY']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header blue">
@@ -135,7 +137,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['Location'] ?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -174,12 +176,12 @@
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
 <!-- Button trigger modal -->
-<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY CODE']?>">
+<button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
 </button>
 
 <!-- Modal -->
-<div class="modal purple fade" id="<?php echo $row['KEY CODE']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal purple fade" id="<?php echo $row['KEY']?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header blue">
@@ -188,7 +190,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['Location'] ?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
