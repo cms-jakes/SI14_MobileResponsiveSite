@@ -209,5 +209,8 @@
 </div><!-- container row-2 -->
 </section><!-- ltpurple -->
 <div style="visibility:hidden;"><h1>CMS Summer Institute 2014</h1><br><h2>Transforming Learning for Every Student</h2></div><!-- H1 text --> 
-
+<br><br>
+<a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-semantics.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics">
+</a>
 <?php include "includes/footer.php" ?>

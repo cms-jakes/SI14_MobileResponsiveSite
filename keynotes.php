@@ -102,6 +102,10 @@
 			</div>
 		</div>
 		</div>
+	<!--CPCCTheater -->
+	<div class="center">
+		<a href="http://tix.cpcc.edu/" target="_blank"><img src="images/CPCCSummerTheater.jpg"/></a>
+	</div>
 	<div class="clearfix visible-xl"></div>
 	</div>
 	<br><br>

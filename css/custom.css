@@ -1,12 +1,12 @@
 nav a {background-color:#522c8f; color:#e5f5fd}
 .navbar {background-color:#522c8f; color:#e5f5fd}
-.navbar-nav > li > a {color: #e5f5fd;font-family:futura}
+.navbar-nav > li > a {color: #e5f5fd;font-family:Futura, "Trebuchet MS", Arial, sans-serif}
 .navbar-nav a:hover {color: #5ca820 !important; background-color:#522c8f !important}
 .dropdown {color:#522c8f}
 .dropdown-toggle {background-color:#522c8f !important}
-.dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:futura}
-.dropdown-menu > li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
-.dropdown-menu > li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
+.dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:Futura, "Trebuchet MS", Arial, sans-serif}
+.dropdown-menu > li > a {color:#522c8f !important; background-color:#fff !important; font-family:Futura, "Trebuchet MS", Arial, sans-serif; font-weight:bold}
+.dropdown-menu > li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:Futura, "Trebuchet MS", Arial, sans-serif; font-weight:bold}
 .navbar-toggle {background-color:#e5f5fd}
 .navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
 .btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
@@ -34,7 +34,7 @@ nav a {background-color:#522c8f; color:#e5f5fd}
         font-size: 0.8em; /* 0.8x default size */
         }
     }
-.f{font-family:"futura";}
+.f{font-family:"Futura, "Trebuchet MS", Arial, sans-serif";}
 
 .green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
 .btn-success {background-color:#5ca820 !important; border-color:#52971c !important;}
@@ -62,10 +62,13 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 	color:#e5f5fd;
 }
 
-
+.bluetext {color:#4460a8;}
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
 .blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
+.blue > p > a {color:#5ca820 !important; text-decoration:none;}
+.blue > p > a:hover {color:#5ca820 !important; text-decoration:none;}
+
 .panel-body > a {color:#5ca820 !important; text-decoration:none; font-weight:bold;}
 .panel-body > a:hover {color:#5ca820 !important; text-decoration:none;}
 
@@ -76,6 +79,9 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 
 .red {background-color:#ed341f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .white {background-color:#fff; color:#522c8f; margin-top:0px; margin-bottom:0px}
+
+.gray {background-color:#f7fcfe; color:#522c8f;}
+
 .center {text-align:center}
 .badge-red {background-color:#ed341f;}	
 #keynotes {padding-top:1%; padding-left:5%; padding-right:5%}
@@ -103,8 +109,8 @@ table .header-fixed {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
 }
 
-th {font-family:"futura"; text-align:center; font-weight:bold} 
-td {font-family:"futura"; text-align:center} 
+th {font-family:"Futura, "Trebuchet MS", Arial, sans-serif"; text-align:center; font-weight:bold} 
+td {font-family:"Futura, "Trebuchet MS", Arial, sans-serif"; text-align:center} 
 
 .gci{background-color:#566fb0; }
 .redtxt{color:#f9c2bb}
@@ -149,6 +155,14 @@ overflow-y: auto;
       bottom: -10px;
       text-align:center;
 }
+
+.low {
+      padding: 0 30px !important;
+      margin:0 auto;
+      bottom: -20px !important;
+      text-align:center;
+}
+
 .carousel-indicators {
 	bottom:-40px;
 }

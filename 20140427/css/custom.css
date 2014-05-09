@@ -1,0 +1,157 @@
+nav a {background-color:#522c8f; color:#e5f5fd}
+.navbar {background-color:#522c8f; color:#e5f5fd}
+.navbar-nav > li > a {color: #e5f5fd;font-family:futura}
+.navbar-nav a:hover {color: #5ca820 !important; background-color:#522c8f !important}
+.dropdown {color:#522c8f}
+.dropdown-toggle {background-color:#522c8f !important}
+.dropdown-menu {color:#522c8f !important; background-color:#fff !important; font-family:futura}
+.dropdown-menu > li > a {color:#522c8f !important; background-color:#fff !important; font-family:futura; font-weight:bold}
+.dropdown-menu > li > a:hover {color:#5ca820 !important; background-color:#522c8f !important; font-family:futura; font-weight:bold}
+.navbar-toggle {background-color:#e5f5fd}
+.navbar .navbar-toggle .icon-bar {background-color: #522c8f;}
+.btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
+.header {margin-left: auto; margin-right: auto; margin-bottom: 0}
+.active > a {color:#ed341f !important;}
+@font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
+@font-family-base {font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
+@media all and (max-width: 2040px) { /* screen size until 1200px */
+    table {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    table {
+        font-size: 1.3em; /* 1.3x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    table {
+        font-size: 1.0em; /* 1.0x default size */
+        }
+    }
+@media all and (max-width: 700px) { /* screen size until 500px */
+    table {
+        font-size: 0.8em; /* 0.8x default size */
+        }
+    }
+.f{font-family:"futura";}
+
+.green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
+.btn-success {background-color:#5ca820 !important; border-color:#52971c !important;}
+.btn-success:hover {background-color:#498619 !important; border-color:#407516 !important;}
+.purple {background-color:#522c8f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
+.purple button:hover {background-color:#5ca820 !important;}
+.ltpurple {
+/* fallback */
+  background-color: #b9aad2;
+
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#522c8f), to(#b9aad2));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #522c8f, #b9aad2);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #522c8f, #b9aad2);
+	color:#e5f5fd;
+}
+
+
+.blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
+.blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
+.blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
+.panel-body > a {color:#5ca820 !important; text-decoration:none; font-weight:bold;}
+.panel-body > a:hover {color:#5ca820 !important; text-decoration:none;}
+
+.blue > section > div > ul > li > h4 > a {color:#5ca820 !important;}
+.blue > section > div > ul > li > h4 > a:hover {color:#20a82a !important;text-decoration:none;}
+
+.ltblue {background-color:#e5f5fd; color:#522c8f; margin-top:0px; margin-bottom:0px}
+
+.red {background-color:#ed341f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
+.white {background-color:#fff; color:#522c8f; margin-top:0px; margin-bottom:0px}
+.center {text-align:center}
+.badge-red {background-color:#ed341f;}	
+#keynotes {padding-top:1%; padding-left:5%; padding-right:5%}
+#sessionFormat{padding-top:1%; padding-left:5%; padding-right:5%}
+#maps{padding-top:1%; padding-left:5%; padding-right:5%}
+footer { position: fixed; bottom: 0; width:100%}
+.center {margin-left:auto; margin-right:auto; vertical-align: middle}
+.padding10 {padding-left:10%; padding-right:10%;}
+.hrThick {height:3px; background-color:#e5f5fd}
+.caption{font-size:1.2em}
+.left {text-align:left !important;}
+.btn-link button:hover {background-color:#fff !important;}
+.well {border:none !important;}
+table .header-fixed {
+  position: fixed;
+  top: 40px;
+  z-index: 1020; /* 10 less than .navbar-fixed to prevent any overlap */
+  border-bottom: 1px solid #d5d5d5;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+     -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+          box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
+}
+
+th {font-family:"futura"; text-align:center; font-weight:bold} 
+td {font-family:"futura"; text-align:center} 
+
+.gci{background-color:#566fb0; }
+.redtxt{color:#f9c2bb}
+
+body {background-color:#522c8f}
+.card {padding:5%; margin-bottom:5%}
+.register  {background-color:#ed341f;color:#000;margin-top:0px; margin-bottom:0px}
+
+.equal{
+    margin-bottom: float;
+    padding-bottom: float;    
+}
+.scrollspy-example {
+position: relative;
+height: 1000px;
+margin-top: 10px;
+overflow: auto;
+overflow-x: auto;
+overflow-y: auto;
+}
+
+.popover {color:#e5f5fd}
+.popover-title {color:#e5f5fd}
+.popover-content {background-color:#522c8f; color:#e5f5fd; font-size:0.7em;}
+
+.panel-heading {background-color:#e5f5fd !important; color:#522c8f !important; }
+.panel-title > a {text-decoration:none;}
+.panel-body {background-color:#4460a8; color:#e5f5fd}
+
+@media (min-width: 768px){
+.navbar-nav{
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    float:none;
+}
+}  
+
+.carousel-caption {
+      padding: 0 20px;
+      margin:0 auto;
+      bottom: -10px;
+      text-align:center;
+}
+.carousel-indicators {
+	bottom:-40px;
+}
+
+.modal-footer > button:hover{background-color:#4460a8 !important; color:#e5f5fd}
+.modal-header > button:hover{background-color:#4460a8 !important; color:#000}

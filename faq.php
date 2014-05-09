@@ -43,7 +43,7 @@ Where do I park?
     </div>
     <div id="3" class="panel-collapse collapse">
       	<div class="panel-body">		
-			Free parking is provided on the CPCC campus.  Student Parking lot 1 is the lot closest to most of the buildings used for the CMS Summer Institute. You can access <a href="https://www.cpcc.edu/campuses/central/images/central_map" class="blue" target="_blank">Student Parking lot 1</a> from Charlottetowne ave between 4th and Elizabeth. 
+			Free parking is provided on the CPCC campus.  Student Parking lot 1 is the lot closest to most of the buildings used for the CMS Summer Institute. You can access <a href="https://www.cpcc.edu/campuses/central/images/central_map" class="blue" target="_blank">Student Parking lot 1</a> from Charlottetowne Ave between 4th Street and Elizabeth Ave.  
 		</div><!--panel body-->
 	</div><!--panel-collapse-->
    </div><!--panel-default-->
@@ -71,7 +71,8 @@ Is there a stipend?
     </div>
     <div id="5" class="panel-collapse collapse">
       	<div class="panel-body">		
-      		Summer Institute is invitational learning and no stipends will be provided.  However, we will provide, free of charge, a special <a href="ASEP.php" class="blue">summer camp opportunity </a>for the first 100 children of CMS teachers registered each day.
+      		Summer Institute is invitational learning and no stipends will be provided.  However, we will provide, free of charge, a special <a href="ASEP.php" class="blue">summer camp opportunity </a>for the first 100 children of CMS teachers registered each day. The registration deadline is Friday, June 6th.
+
 		</div><!--panel body-->
 	</div><!--panel-collapse-->
    </div><!--panel-default-->

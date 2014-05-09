@@ -28,6 +28,7 @@
 				<li><h4>Complete the registration for EACH child registering</h4></li>  
 				<li><h4>Only rising First Graders through rising Seventh Graders can attend this camp</h4></li>
 				<li><h4>Once the 100 free slots have been filled, your daily rate to use the ASEP Summer Camp is $26 per day. Paid registration information can be found: <a href="http://www.cms.k12.nc.us/cmsdepartments/asep/Pages/Summer%20Camp%20Brochure-Word%202014-3.pdf" target="_blank">HERE</a></li>
+				<li><h4>Registration closes June 6th</h4></li>
 				<li><h4>Get more information at the <a href="http://www.cms.k12.nc.us/cmsdepartments/asep/Pages/default.aspx" target="_blank">ASEP Website</a></h4>
 			</ul>
 		<div>    

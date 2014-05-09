@@ -25,15 +25,6 @@ ript>
     <![endif]-->
     
   </head>
-<!--[if IE 8]>
-<h1>Please use Chrome, Firefox, or Safari to view this website.</h1>
-<![endif]-->
-<!--[if IE 7]>
-<h1>Please use Chrome, Firefox, or Safari to view this website.</h1>
-<![endif]-->
-<!--[if IE 6]>
-<h1>Please use Chrome, Firefox, or Safari to view this website.</h1>
-<![endif]-->
   
 <!--navbar top -->
 <div class="row">
@@ -68,6 +59,8 @@ ript>
             <li><a href="June24.php">June 24th</a></li>
             <li><a href="June25.php">June 25th</a></li>
             <li><a href="June26.php">June 26th</a></li>
+            <li class="divider"></li>
+            <li><a href="CompleteSchedule.php">Complete List of Sessions</a><li>
           </ul>
         </li>
 		<li><a href="faq.php">Institute FAQ</a></li>
@@ -94,4 +87,11 @@ ript>
   </div><!-- /.container-fluid -->
 </nav>
 </div>
+<!--[if IE 9]>
+<h1>Please use Chrome, Firefox, or Safari to view this website.</h1>
+<![endif]-->
+<!--[if lt IE 9]>
+<h1>Please use Chrome, Firefox, or Safari to view this website.</h1>
+<![endif]-->
+
 

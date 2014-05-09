@@ -162,11 +162,6 @@
 <br>1425 Elizabeth Avenue, Charlotte, NC 28204
 <br> 980-224-8020</p>
 <br>
-<h3><a href="">Elizabeth Creamery Ice Cream</a></h3>
-<p><span class="fa fa-usd"></span>
-<br>1601 Elizabeth Ave, Charlotte, NC 0.3 mi SE
-<br>(704) 332-7776 ‎ </p>
-<br>
 </section><!--coffee and icecream col1-->
 <section class="col-sm-4">
 <h3><a href="http://dunkindonuts.com" target="_blank">Dunkin' Donuts</a> </h3>

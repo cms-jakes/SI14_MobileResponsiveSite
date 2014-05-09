@@ -29,7 +29,8 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
+        <h4>
+        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -83,7 +84,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -137,7 +138,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -190,7 +191,7 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondaryPresenter']?></h4>
+        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
