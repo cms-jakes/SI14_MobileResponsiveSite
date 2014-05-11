@@ -143,3 +143,167 @@
       				<div class="modal-header">
         			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         			<h4 class="modal-title" id="myModalLabel">1:00 Breakout Sessions</h4>
+      				</div>
+      			<div class="modal-body">
+              					<p>Session List</p>
+        						<ul class="left">
+        							<li><h3><strong>Session 1 Title</strong></h3>
+        								<h5><i>Session Location</i></h5>
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 2 Title</strong></h3>
+        								<h5><i>Session Location</i></h5>
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 3 Title</strong></h3>
+        								<h5><i>Session Location</i></h5>
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 4 Title</strong></h3>
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 5 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 6 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 7 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 8 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 9 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        							<li><h3><strong>Session 10 Title</strong></h3> 
+        								<h5><i>Session Location</i></h5> 
+        								<p>Session Description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibu</p>
+        							</li> <hr>
+        						</ul>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+			</td>
+		</tr>
+		<tr class="white center">
+			<td><h4>2:20 – 2:30<br>30’</h4></td><td><h4>Break</h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>2:30 - 4:00<br>90’</h4></td><td><h4>Breakout Session 2</h4></td>
+		</tr>		
+	</table>
+
+	</div><!-- LC17 tab -->
+  <div class="tab-pane" id="LC18">	
+	<table class="table table-condenced table-responsive">
+		<tr class="purple center">
+			<td><h3>Time</h3></td><td><h3>Activity</h3></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>7:30 – 8:00<br>30'</h4></td><td><h4>Coffee and Refreshments</h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>8:00 - 9:30<br>90’</h4></td><td><h4>Keynote<br><a href="#Casap">Jaime Casap</a></h4></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>9:30 - 9:55<br>15’</h4></td><td><h4>Vendor Presentation<br></h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>9:45 - 10:00<br>15’</h4></td><td><h4>Break</h4></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>10:00 - 11:30<br>30’</h4></td><td><h4>Keynote<br><a href="#Sheninger">Eric Sheninger</a></h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>11:30 – 11:45<br>15’</h4></td><td><h4>Vendor Presentation</h4></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>11:45 - 12:45<br>60’</h4></td><td><h4>Lunch<br><a href="http://www.discoveryeducation.com/" target="blank">Sponsored by Discovery Education</a></h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>12:45 - 2:00<br>75’</h4></td><td><h4>Breakout Sessions</h4></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>2:00 - 2:10<br>10’</h4></td><td><h4>Break</h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>2:10 - 3:25<br>75’</h4></td><td><h4>School Teams Meet</h4></td>
+		</tr>
+		<tr class="white center">
+			<td><h4>3:25 – 3:30<br>5’</h4></td><td><h4>Move to Auditorium</h4></td>
+		</tr>
+		<tr class="ltblue center">
+			<td><h4>3:30 - 4:30<br>60’</h4></td><td><h4>Dr. Morrison</h4></td>
+		</tr>		
+	</table>
+
+	</div><!-- LC18 tab -->
+</div><!--tab-content-->
+
+<section class="container keynotes">
+	<div class="row">
+	<section class="col-sm-6">
+	<div id="Morrison" class="well purple">
+	<br><br><br>
+		<section class="center">
+		<h2>Heath Morrison</h2>
+		<h3>CMS Superintendent</h3>
+		</section><!--Center-->
+		<p>Dr. Heath E. Morrison joined Charlotte-Mecklenburg Schools in July 2012 from the Washoe County School District (Reno).</p>
+		<p>Dr. Morrison quickly established an entry plan, meeting with parents, employees, citizens and students in a series of public appearances and town hall meetings in his first 100 days. Using input and concerns from the community, he set the district’s course for his first year with The Way Forward, a document that identified key strategic goals and district direction.</p> 
+	</div><!--Morrison-->
+	<br>	
+	<div id="Murphy" class="well ltblue">
+	<br><br><br>
+		<section class="center">
+		<h2>Joseph F. Murphy</h2>
+		<h3>Vanderbilt University, Nashville, TN</h3>
+		</section><!-- center-->
+		<p>Joseph F. Murphy is the Frank W. Mayborn Chair and associate dean at Peabody College of Education at Vanderbilt University. He has also been a faculty member at the University of Illinois and The Ohio State University, where he was the William Ray Flesher Professor of Education. In the public schools, he has served as an administrator at the school, district, and state levels, including an appointment as the executive assistant to the chief deputy superintendent of public instruction in California. His most recent appointment was as the founding president of the Ohio Principals Leadership Academy. At the university level, he has served as department chair and associate dean.</p>
+		<p>He is past vice president of the American Educational Research Association and was the founding chair of the Interstate School Leaders Licensure Consortium (ISLLC). He is co-editor of the AERA Handbook on Educational Administration (1999) and editor of the National Society for the Study of Education (NSSE) yearbook, The Educational Leadership Challenge (2002).</p>
+		<p>His work is in the area of school improvement, with special emphasis on leadership and policy. He has authored or co-authored 18 books in this area and edited another 12. His most recent authored volumes include Understanding and Assessing the Charter School Movement (2002), Leadership for Literacy: Research-Based Practice, PreK-3 (2003), Connecting Teacher Leadership and School Improvement (2005), Preparing School Leaders: Defining a Research and Action Agenda (2006), and Turning Around Failing Schools: Lessons From the Organizational Sciences.</p>
+	</div><!-- well-->
+	<br>
+	</section><!--col-sm-6-->
+	<section class="col-sm-6">
+	<div id="Casap" class="well blue">
+	<br><br><br>
+		<section class="center">
+		<h2>Jaime Casap</h2>
+		<h3>Senior Education Evangelist for Google</h3>
+		</section><!--Center-->
+		<p>Senior Education Evangelist and Tech & Learning's "2012 Top 10 Most Influential" hoodlum from Hells Kitchen focused on leveling the playing field and making education the silver bullet to millions of students around the world. Focused on using technology and the web as the enabling capability in our classrooms and schools to transform education!</p>
+	</div><!--Casap-->
+	<br>	
+	<div id="Sheninger" class="well purple">
+	<br><br><br>
+		<section class="center">
+		<h2>Eric Sheninger</h2>
+		<h3> Principal at New Milford High School, Bergen County, NJ</h3>
+		</section><!-- center-->
+		<p>Eric is the award-winning Principal at New Milford High School located in Bergen County, NJ. His work focuses on leading and learning in the digital age as a model for moving schools and districts forward. This has led to the formation of the Pillars of Digital Leadership, a framework for all educators to initiate sustainable change to transform school cultures.  As a result Eric has emerged as an innovative leader and sought after speaker.  His main focus is the use of social media and web 2.0 technology as tools to engage students, improve communications with stakeholders, enhance public relations, create a positive brand presence, discover opportunity, transform learning spaces, and help educators grow professionally.</p>
+	</div><!-- well-->
+	<br>
+	</section><!--col-sm-12-->
+	</div><!--row-->
+	<br>
+</section><!--keynotes-->
+
+
+<!-- LC17th-->
+<br><br><br><br>
+</div>
+<?php include "includes/footer.php" ?>
