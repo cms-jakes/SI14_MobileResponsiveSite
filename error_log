@@ -6879,3 +6879,22 @@
 [08-May-2014 05:32:17 America/Denver] PHP Notice:  Undefined index: SecondaryPresenter in /home2/cmssumme/public_html/si14/includes/sqlTimes.php on line 89
 [08-May-2014 05:33:07 America/Denver] PHP Notice:  Undefined index: SecondaryPresenter in /home2/cmssumme/public_html/si14/includes/sqlTimes.php on line 89
 [08-May-2014 05:33:19 America/Denver] PHP Notice:  Undefined index: SecondaryPresenter in /home2/cmssumme/public_html/si14/includes/sqlTimes.php on line 89
+[14-May-2014 09:22:43 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home2/cmssumme/public_html/si14/LC.php on line 20
+[14-May-2014 09:22:48 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home2/cmssumme/public_html/si14/LC.php on line 20
+[14-May-2014 09:22:51 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home2/cmssumme/public_html/si14/LC.php on line 20
+[14-May-2014 10:31:27 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/cmssumme/public_html/si14/LC.php on line 192
+[14-May-2014 10:31:37 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/cmssumme/public_html/si14/LC.php on line 192
+[14-May-2014 10:32:28 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/cmssumme/public_html/si14/LC.php on line 192
+[14-May-2014 10:32:29 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/cmssumme/public_html/si14/LC.php on line 192
+[14-May-2014 10:33:09 America/Denver] PHP Parse error:  syntax error, unexpected '=' in /home2/cmssumme/public_html/si14/LC.php on line 192
+[14-May-2014 10:33:25 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:35:07 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:35:40 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:40:39 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:46:56 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:47:48 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 10:48:07 America/Denver] PHP Notice:  Undefined index: Description in /home2/cmssumme/public_html/si14/LC.php on line 189
+[14-May-2014 12:07:46 America/Denver] PHP Notice:  Undefined variable: results8 in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
+[14-May-2014 12:07:46 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
+[14-May-2014 12:07:50 America/Denver] PHP Notice:  Undefined variable: results8 in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
+[14-May-2014 12:07:50 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/cmssumme/public_html/si14/LCSessions.php on line 43

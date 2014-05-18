@@ -15,7 +15,7 @@
 			<h3><span class="badge badge-red">New</span> Session Schedules and Descriptions</h3>
 			<h5>Preview sessions by day and time and schedule events into your own Google Calendar.</h5>
 			<ul>
-			<li>CEUs: Awarded by the <u>number of days you attend</u>, not by sessions</li>
+			<li>CEUs: Awarded by the <u>number of days you attend</u>, not by sessions. Credit will be listed as INS SU14 2014 Summer Institute.  This will be counted as content credit toward license renewal.</li>
 			<li>A large variety of options optimized to help you find something aligned to your needs each day!</li>
 			</ul>
 				<h4>Review Session Descriptions for Each Day</h4>

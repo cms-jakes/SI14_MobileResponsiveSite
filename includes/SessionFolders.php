@@ -25,10 +25,7 @@
 	        <h4>NOTE:</h4>
     	    <p>You will need to log into Google Drive with your CMS Google Apps account to see the folders.  If you do not know your account information please <a href="mailto:helpdesk@cms.k12.nc.us?Subject=Please%20reset%20my%20Google%20password" target="_top">contact helpdesk</a>.</p>
 	    </div>
-	<div class="center">
-		<br>
-		<iframe width="560" height="315" src="//www.youtube.com/embed/llsJaVsyTzI?rel=0" frameborder="0" allowfullscreen></iframe>
-	</div>
+
 	
 	</section><!--row-->
 	</div><!--jumbotron-->

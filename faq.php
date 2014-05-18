@@ -51,7 +51,7 @@ Where do I park?
     <div class="panel-heading">
       <h2 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#4">
-Will computers be provided for sessions that requrie them? 
+Will computers be provided for sessions that require them? 
         </a>
       </h2>
     </div>
