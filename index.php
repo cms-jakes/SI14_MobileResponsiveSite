@@ -2,54 +2,13 @@
 <body id="home">
 <section class="ltpurple">
 <div class="container">
-<section class="row">
-    	<div class="col-md-6">
-    		<div class="purple">
-	      		<img src="images/SI_LogoTop.png" class="header img-responsive" >
-				<img src="images/SI_LogoBottom.png" class="header img-responsive" >
+<section class="row" id="row1">
+    	<div class="col-md-6" id="R1C1"> 
+    		<div class="center">
+	      		<img src="images/SI_LogoTop.png" style="height:370px" class="thumbnail img-responsive center" >
 			</div>
-			<br>
 		</div><!-- Row1 Column 1-->
-		<div class="sidebar col-md-6">
-			<div class="well blue well-sm sessions-well">
-			<h3><span class="badge badge-red">New</span> Session Schedules and Descriptions</h3>
-			<h5>Preview sessions by day and time and schedule events into your own Google Calendar.</h5>
-			<ul>
-			<li>CEUs: Awarded by the <u>number of days you attend</u>, not by sessions. Credit will be listed as INS SU14 2014 Summer Institute.  This will be counted as content credit toward license renewal.</li>
-			<li>A large variety of options optimized to help you find something aligned to your needs each day!</li>
-			</ul>
-				<h4>Review Session Descriptions for Each Day</h4>
-				<section class="DateButtons btn-group btn-group-justified">
-  					<div class="btn-group">							
-						<a href="June16.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 16th</a>
-          			</div>
-          			<div class="btn-group">
-		            	<a href="June17.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 17th</a>
-          			</div>
-          			<div class="btn-group">		
-		            	<a href="June18.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 18th</a>
-          			</div>
-          			<div class="btn-group">
-		            	<a href="June19.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 19th</a>
-					</div>		
-				</section> <!-- DateButtons-->
-				<br>
-				<section class="DateButtons btn-group btn-group-justified">
-  					<div class="btn-group">							
-						<a href="June23.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 23rd</a>
-					</div>
-  					<div class="btn-group">							
-		            	<a href="June24.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 24th</a>
-					</div>
-  					<div class="btn-group">									
-		            	<a href="June25.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 25th</a>
-					</div>
-  					<div class="btn-group">							
-		            	<a href="June26.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 26th</a>
-					</div>
-				</section> <!-- DateButtons-->
-			</div><!-- sessionPromo-->
-			<br><br>
+		<div class="sidebar col-md-6" id="R1C2">
 			<div class="well green well-sm keynote-carousel"><!-- Keynote Promo-->
 				<section class="clear-fix">
 				<div class="center"><h2>Keynote Presenters</h2></div>
@@ -117,8 +76,61 @@
 				<br>&nbsp
 			</section>
 		</div>	<!-- Keynote Promo -->	
-		</div> <!-- sidebar Row1 Column 2 -->
-</section><!-- row  -->
+		</div> <!-- Row 1 Column 2 -->	
+</section><!-- row  1-->
+<section class="row" id="row2">
+		<div class="col-md-6" id="R2C1">
+			<div class="well blue well-sm sessions-well">
+			<h2 class="center">Session Schedules and Descriptions</h2>
+			<h5>Preview sessions by day and time and schedule events into your own Google Calendar.</h5>
+			<ul>
+			<li>CEUs: Awarded by the <u>number of days you attend</u>, not by sessions. Credit will be listed as INS SU14 2014 Summer Institute.  This will be counted as content credit toward license renewal.</li>
+			<li>A large variety of options optimized to help you find something aligned to your needs each day!</li>
+			</ul>
+				<h4>Review Session Descriptions for Each Day</h4>
+				<section class="DateButtons btn-group btn-group-justified">
+  					<div class="btn-group">							
+						<a href="June16.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 16th</a>
+          			</div>
+          			<div class="btn-group">
+		            	<a href="June17.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 17th</a>
+          			</div>
+          			<div class="btn-group">		
+		            	<a href="June18.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 18th</a>
+          			</div>
+          			<div class="btn-group">
+		            	<a href="June19.php" target="_blank" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 19th</a>
+					</div>		
+				</section> <!-- DateButtons-->
+				<br>
+				<section class="DateButtons btn-group btn-group-justified">
+  					<div class="btn-group">							
+						<a href="June23.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 23rd</a>
+					</div>
+  					<div class="btn-group">							
+		            	<a href="June24.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 24th</a>
+					</div>
+  					<div class="btn-group">									
+		            	<a href="June25.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 25th</a>
+					</div>
+  					<div class="btn-group">							
+		            	<a href="June26.php" target="_blank" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-calendar"></span> June 26th</a>
+					</div>
+				</section> <!-- DateButtons-->
+			</div><!-- sessionPromo-->
+		</div> <!-- sidebar Row2 Column 1 -->
+		<div class="col-md-6" id="R2C2">
+			<section class="well well-sm white">
+						<h2 class="center"><sup><span class="badge badge-red">New</span></sup>Presentation Materials Are In Google Drive</h2>
+	    				<div class="thumbnail">
+      						<img src="images/GDrive.png" alt="Google Drive Icon" />
+				    		<div class="caption">
+					    	    <p class="center"><a class="btn btn-danger btn-lg" role="button" href="SessionFolders.php" target="_blank">Access the Folders</a></p>
+      						</div>
+      					</div>					
+			</section>
+		</div> <!-- Row2 column 2-->			    
+</section><!-- row  2-->
 </div><!-- container row-1 -->
 <br>
 <div class="container row-2">

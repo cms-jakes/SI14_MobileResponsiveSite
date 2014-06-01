@@ -14,6 +14,7 @@
      				<section class="well blue well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><i><?php echo $row['Building'] ?> <?php echo $row['Room'] ?></i></h5>
 <!-- Button trigger modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
@@ -30,7 +31,11 @@
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
         <h4>
-        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?></h4>
+        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?>
+			<br>
+</h4></h5>			Building: <?php echo $row['Building']?> &nbsp; &nbsp; Room: <?php echo $row['Room']?>
+                 </h5>
+        	
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -84,8 +89,12 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
-        <hr>
+        <h4>        	
+        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?>
+			<br>
+		</h4>
+		<h5>Building: <?php echo $row['Building']?> &nbsp; &nbsp; Room: <?php echo $row['Room']?>
+        </h5>
         <?php echo $row['Description'] ?>
       </div>
       <div class="modal-footer blue">
@@ -138,7 +147,12 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
+        <h4>
+        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?>
+			<br>
+		</h4>
+		<h5>Building: <?php echo $row['Building']?> &nbsp; &nbsp; Room: <?php echo $row['Room']?>
+        </h5>
         <hr>
         <?php echo $row['Description'] ?>
       </div>
@@ -191,9 +205,14 @@
       </div>
       <div class="modal-body blue">
         <h4><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h4>
-        <h4><?php echo $row['PrimaryPresenter']?> &nbsp &nbsp <?php echo $row['SecondPresenter']?></h4>
-        <hr>
-        <?php echo $row['Description'] ?>
+        <h4>
+        	<?php echo $row['PrimaryPresenter']?>&nbsp; &nbsp;<?php echo $row['SecondPresenter']?>
+			<br>
+		</h4>
+		<h5>Building: <?php echo $row['Building']?> &nbsp; &nbsp; Room: <?php echo $row['Room']?>
+        </h5>
+		<hr>                
+            <?php echo $row['Description'] ?>
       </div>
       <div class="modal-footer blue">
         <button type="button" class="btn btn-link" data-dismiss="modal">Back</button>

@@ -7,10 +7,10 @@
 		<section class="row">
 		<div class="col-md-6">
 		<h1>Leadership Conference</h1>
-		<h2>Tuesday, June 17th at <a href="https://www.google.com/maps/preview?ie=UTF-8&gl=us&hq=waddell+language+academy&daddr=7030+Nations+Ford+Rd,+Charlotte,+NC+28217&panel=1&f=d&fb=1&geocode=FaBsGAIdqJAt-ynnVOfgSplWiDGBGMH-QL7ADA&cid=918943510344833153" target="_blank">Waddell</a> 
+		<h2>Tuesday, June 17th at <a href="https://goo.gl/maps/Dbmgb" target="_blank">Waddell</a> 
 		<br>
 		<small>(Meet in the Auditorium)</small></h2>
-		<h2>Wednesday, June 18th at <a href="https://www.google.com/maps/place/Central+Piedmont+Community+College+-+Central+Campus/@35.2154222,-80.8344177,15z/data=!4m2!3m1!1s0x0:0xdf782956a4f2a05a?hl=en-US" target="_blank">CPCC Central Campus</a> 
+		<h2>Wednesday, June 18th at <a href="https://goo.gl/maps/EhEDw" target="_blank">CPCC Central Campus</a> 
 		<br>
 		<small>(Meet at the Grady Cole Center)</small></h2>
 
@@ -28,7 +28,8 @@
 				    	<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 				    	<li data-target="#carousel-example-generic" data-slide-to="4"></li>
 				    	<li data-target="#carousel-example-generic" data-slide-to="5"></li>
-
+						<li data-target="#carousel-example-generic" data-slide-to="6"></li>
+						<li data-target="#carousel-example-generic" data-slide-to="7"></li>
 					</ol>
 					<!-- Wrapper for slides -->
 					<div class="carousel-inner">
@@ -77,6 +78,26 @@
 								<h4><span class="bluetext">Keynote Speaker:<br>Dr. Joseph F. Murphy</span></h4>
 							</div><!-- carousel-caption--></a>
 						</div><!-- Murphy-->
+						<div class="item" id="DEJasons">
+							<img src="images/DEJasons.png" class="center" alt="Discovery Education and Jason's Deli Logo" />
+							</a>
+							<div class="carousel-caption">							
+								<h4>
+								<span class="bluetext"><a href="http://Discoveryeducation.com" target="_blank">Discovery Education</a></span>
+								<span class="bluetext"><br>and </span>
+								<span class="bluetext"><a href="http://www.jasonsdeli.com/" target="_blank">Jason's Deli</a></span>
+								</h4>
+							</div><!-- carousel-caption--></a>
+						</div><!-- DE Jasons-->
+						<div class="item" id="Burke">
+							<img src="images/Burke.jpg" class="center" alt="Burke International Tours" />
+							</a>
+							<div class="carousel-caption">							
+								<h4>
+								<span class="bluetext"><a href="http://www.burkechristiantours.com/" target="_blank">Burke Christian Tours</a></span>
+								</h4>
+							</div><!-- carousel-caption--></a>
+						</div><!-- Burke -->
 						
 					</div><!-- carousel inner-->
 						<!-- Controls -->
@@ -113,22 +134,22 @@
 			<td><h4>8:00 - 8:15<br>15’</h4></td><td><h4>Welcome and Introductions of Executive Team<br>Introduction of Superintendent<br>Ann Clark</h4></td>
 		</tr>
 		<tr class="white center">
-			<td><h4>8:15 - 9:15<br>60’</h4></td><td><h4>Keynote<br><a href="#Morrison">Dr. Morrison</a></h4></td>
+			<td><h4>8:15 - 9:15<br>60’</h4></td><td><h4>Keynote<br><a href="#Morrison">Superintendent Morrison</a></h4></td>
 		</tr>
 		<tr class="ltblue center">
 			<td><h4>9:15 - 9:30<br>15’</h4></td><td><h4>Principals of the Year Recognition<br>Tonya Kales</h4></td>
 		</tr>
 		<tr class="white center">
-			<td><h4>9:30 - 9:45<br>15’</h4></td><td><h4>Retiree Recognition<br>Kelly Gwaltney</h4></td>
+			<td><h4>9:30 - 9:45<br>15’</h4></td><td><h4>Retiree Recognition<br>Dr. Kelly Gwaltney</h4></td>
 		</tr>
 		<tr class="ltblue center">
 			<td><h4>9:45 – 10:00<br>15’</h4></td><td><h4>Break</h4></td>
 		</tr>
 		<tr class="white center">
-			<td><h4>10:00 - 11:30<br>90’</h4></td><td><h4>Keynote<br><a href="#Murphy">Joe Murphy</a></h4></td>
+			<td><h4>10:00 - 11:30<br>90’</h4></td><td><h4>Keynote<br><a href="#Murphy">Dr. Joe Murphy</a></h4></td>
 		</tr>
 		<tr class="ltblue center">
-			<td><h4>11:30 - 12:00<br>30’</h4></td><td><h4>Horace Mann Presentation<br>Horace Mann, President</h4></td>
+			<td><h4>11:30 - 12:00<br>30’</h4></td><td><h4><a href="JoyceTice.php" target="_blank">Horace Mann Presentation<br>Joyce Tice</a></h4></td>
 		</tr>
 		<tr class="white center">
 			<td><h4>12:00 - 1:00<br>60’</h4></td><td><h4>Lunch, Sponsored by Horace Mann</h4></td>
@@ -200,7 +221,7 @@
 			<td><h4>3:25 – 3:30<br>5’</h4></td><td><h4>Move to <a href="https://www.cpcc.edu/campuses/central/images/central_map" target="_blank">Grady Cole Center</a></h4></td>
 		</tr>
 		<tr class="ltblue center">
-			<td><h4>3:30 - 4:30<br>60’</h4></td><td><h4>Dr. Morrison</h4></td>
+			<td><h4>3:30 - 4:30<br>60’</h4></td><td><h4>Superintendent Morrison</h4></td>
 		</tr>		
 	</table>
 

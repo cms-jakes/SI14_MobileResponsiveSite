@@ -23,7 +23,7 @@
 	<section class="container">				
 		<div id="GoogleMap">
 			<h2>Map To CPCC</h2>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26073.143073195653!2d-80.825558!3d35.227813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdf782956a4f2a05a!2sCentral+Piedmont+Community+College+-+Central+Campus!5e0!3m2!1sen!2sus!4v1395891196303" width="95%" height="450" frameborder="0" style="border:0"></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3259.6334591508294!2d-80.830119!3d35.215598!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569ff504daeb01%3A0xa59500230950760f!2sIndependence+Parking+Deck!5e0!3m2!1sen!2sus!4v1400617975804" width="600" height="450" frameborder="0" style="border:0"></iframe>
 		</div>
 	</section><!-- Google Map embeded-->
 </div>

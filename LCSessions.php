@@ -73,7 +73,7 @@ if ($db->error) {
 						<h4 class="center"><?php echo $row['Title'] ?></h4>
 						<p class="center"><strong><?php echo $row['Presenter'] ?></strong>
 						<br>
-						<i><?php echo $row['Audience'] ?></i></p>
+						<?php echo $row['Room'] ?>
 						<hr>     										
 						<p><?php echo $row['Description'] ?></p>
 					</section>
@@ -106,7 +106,7 @@ if ($db->error) {
 						<h4 class="center"><?php echo $row['Title'] ?></h4>
 						<p class="center"><strong><?php echo $row['Presenter'] ?></strong>
 						<br>
-						<i><?php echo $row['Audience'] ?></i></p>
+						<?php echo $row['Room'] ?>
 						<hr>     										
 						<p><?php echo $row['Description'] ?></p>
 					</section>
@@ -140,8 +140,7 @@ if ($db->error) {
      				<section class="well blue well-sm">
 						<h4 class="center"><?php echo $row['Title'] ?></h4>
 						<p class="center"><strong><?php echo $row['Presenter'] ?></strong>
-						<br>
-						<i><?php echo $row['Audience'] ?></i></p>
+						<br><?php echo $row['Building'] ?>&nbsp<?php echo $row['Room'] ?>
 						<hr>     										
 						<p><?php echo $row['Description'] ?></p>
 					</section>

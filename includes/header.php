@@ -70,18 +70,11 @@ ript>
           	<li><a href="information.php#maps">Maps</a></li>
 			<li><a href="information.php#restaurants">Restaurants</a></li>	
 			<li><a href="information.php#devices">Technology</a></li>
+			<li><a href="SessionFolders.php">Session Materials</a></li>
 		  </ul>
 		</li>
         <li><a href="ASEP.php">ASEP Camp</a></li>
-<!-- Leadership Institute
-		<li class="dropdown">
-		  <a href="#" class="nav dropdown-toggle" data-toggle="dropdown">Leadership Conference<b class="caret"></b></a>
-		  <ul class="dropdown-menu">
-				<li><a href="lcJune16th">June 16th</a></li>
-				<li><a href="lcJune17th">June 17th</a></li>
-		  </ul>
-		</li>
--->
+        <li><a href="LC.php">Leadership Conference</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

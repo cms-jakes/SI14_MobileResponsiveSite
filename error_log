@@ -6898,3 +6898,5 @@
 [14-May-2014 12:07:46 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
 [14-May-2014 12:07:50 America/Denver] PHP Notice:  Undefined variable: results8 in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
 [14-May-2014 12:07:50 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home2/cmssumme/public_html/si14/LCSessions.php on line 43
+[01-Jun-2014 07:02:57 America/Denver] PHP Notice:  Undefined index: Audience in /home2/cmssumme/public_html/si14/LCSessions.php on line 76
+[01-Jun-2014 07:06:16 America/Denver] PHP Notice:  Undefined index: Audience in /home2/cmssumme/public_html/si14/LCSessions.php on line 76
