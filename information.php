@@ -36,21 +36,89 @@
 <div class="container">
 <h1 class="center">Restaurants</h1><br>
 	<div class="btn-group btn-group-justified">
+		<div class="btn-group">	
+			<h2><a href="information.php#canteen" class="btn btn-primary">Canteen Catering in Worrell Hall</a></h2>
+		</div>
+	</div>
+	<div class="btn-group btn-group-justified">
         <div class="btn-group">
-        	<h3><a href="information.php#dining" class="btn btn-primary">Dining</a></h3>
+        	<h2><a href="information.php#dining" class="btn btn-primary">Dining</a></h2>
         </div>
         <div class="btn-group">
-        	<h3><a href="information.php#pizza" class="btn btn-primary">Pizza</a></h3>
+        	<h2><a href="information.php#pizza" class="btn btn-primary">Pizza</a></h2>
         </div>
     </div>
 	<div class="btn-group btn-group-justified">
         <div class="btn-group">
-        	<h3><a href="information.php#sandwiches" class="btn btn-primary">Sandwiches</a></h3>
+        	<h2><a href="information.php#sandwiches" class="btn btn-primary">Sandwiches</a></h2>
         </div>
   		<div class="btn-group">
-  			<h3><a href="information.php#coffeeicecream" class="btn btn-primary">Coffee and Ice Cream</a></h3>
+  			<h2><a href="information.php#coffeeicecream" class="btn btn-primary">Coffee and Ice Cream</a></h2>
         </div>
     </div>
+<br><br><hr><br>
+<section class="container">
+
+<div id="canteen">
+<a href="http://www.canteen.com/Pages/Home.aspx" target="_blank"><img class="thumbnail pull-right" src="images/canteen.jpg"/></a>
+
+<h2>Canteen Catering will be selling lunches on campus:</h2>
+</div>
+<div>
+<h4>Location: Worrell Lobby</h4> 
+<h4>Time: 11:30 a.m. – 1 p.m. </h4>
+<h4>Cost: $8 (includes tax and a drink) Cash, credit and debit cards are accepted </h4>
+
+<p><i>Meals will be sold first come first served. Desserts will be sold a-la-carte for $1 each, tax included. </i></p>
+<h3 class="center">A different menu each day:</h3>
+</div>
+<div class="container">
+<section class="row">
+	<div class="col-sm-3">
+		<h3>Monday June 16th</h3>
+		<h4>Turkey Club Wrap</h4>
+		<h5>Shaved Roasted Turkey with Crispy Bacon, Lettuce & Tomato, Wrapped in Sundried Tomato Flour Tortilla. Served with Mediterranean Pasta Salad & Fruit Cup.</h5>
+	</div>
+	<div class="col-sm-3">
+		<h3>Tuesday June 17th</h3>
+		<h4>BBQ Plate</h4>
+		<h5>Smokey BBQ Chicken Plate Served with a Zesty Cole Slaw & Molasses-Brown Sugar infused Baked Beans.</h5>
+	</div>
+	<div class="col-sm-3">
+		<h3>Wednesday June 18th</h3>
+		<h4>Cajun Chicken</h4>
+		<h5>Cajun Crusted Boneless-Skinless Chicken Breast, Pan Seared & Topped with Sautéed Peppers & Onions. Served over a spicy roasted corn Rice Pilaf.</h5>
+	</div>
+	<div class="col-sm-3">
+		<h3>Thursday June 19th</h3>
+		<h4>Hamburgers</h4>
+		<h5>All Beef Grilled Hamburger, Served with all the Fixings on the side. Served with Macaroni Salad & Fruit Salad.</h5>
+	</div>
+</section> <!--R1-->
+<section class="row">
+	<div class="col-sm-3">
+		<h3>Monday June 23rd</h3>
+		<h4>Chicken Burrito</h4>
+		<h5>Shredded Chicken Embellished with Cheddar Cheese, Onions, and Tomatoes, Encased in a Flour Tortilla. Served with Red Beans, Rice, and Zesty Salsa on the Side.</h5>
+	</div>
+	<div class="col-sm-3">		
+		<h3>Tuesday June 24th</h3>
+		<h4>Pasta Primavera</h4>
+		<h5>Whole Wheat Penne Pasta, incorporated with Garden Fresh Roasted Vegetables, Tossed in a Creamy Parmesan-Garlic Sauce. Served with Garlic Bread.</h5>
+	</div>
+	<div class="col-sm-3">
+		<h3>Wednesday June 25th</h3>
+		<h4>Cuban Pork Panini</h4>
+		<h5>Slow Roasted Pork Loin, Thinly Sliced & Mounted Rustic French Bread, with Dill Pickles, Caramelized Red Onion, and Mustard Spread, with a Black Bean Vegetable Salad.</h5>
+	</div>
+	<div class="col-sm-3">
+		<h3>Thursday June 26th</h3>
+		<h4>Braised Beef Brisket</h4>
+		<h5>Served over Garlic Mashed Potatoes & a Garlic Bread Stick</h5>
+	</div>
+</section> <!--R2-->
+</div><!-- Conatiner -->
+</section> <!-- Canteen Catering --> 
 
 <section class="row" id="dining">
 <hr><br>

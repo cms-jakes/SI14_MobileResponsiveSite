@@ -12,6 +12,15 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .btn .btn-primary > a {margin-left: auto; margin-right: auto; font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
 .header {margin-left: auto; margin-right: auto; margin-bottom: 0}
 .active > a {color:#ed341f !important;}
+
+.nt .active a {background-color:#522c8f !important; color:#e5f5fd !important;}
+.nt .active  {background-color:#522c8f !important; color:#e5f5fd !important;}
+
+.nt {background-color:#C0C0C0 !important;}
+
+.lc {background-color: #5ca820 !important; color:#522c8f !important;}
+
+
 @font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
 @font-family-base {font-family:Futura, "Trebuchet MS", Arial, sans-serif;}
 @media all and (max-width: 2040px) { /* screen size until 1200px */

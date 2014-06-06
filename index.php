@@ -190,7 +190,7 @@
 	
 	<table class="table table-responsive ">										
 		<thead><tr><th>	Time	</th><th id="June 16th">	Monday<br>June 16th	</th><th id="June 17th">	Tuesday<br>June 17th	</th><th>	Wednesday<br>June 18th	</th><th>	Thursday<br>June 19th	</th></tr></thead>
-		<tr><td>	8:30-10:00	</td><td>	Welcome<sup>*</sup> & Keynote:<br> Dr. Morrison	</td><td>	Keynote:<br>Dr. Heidi Jacobs	</td><td>	Keynote:<br>Jaime Casap, Google	</td><td>	Keynote:<br> Lynell Burmark	</td></tr>
+		<tr><td>	8:30-10:00	</td><td>	Welcome & Keynote:<br> Dr. Morrison	</td><td>	Keynote:<br>Dr. Heidi Jacobs	</td><td>	Keynote:<br>Jaime Casap, Google	</td><td>	Keynote:<br> Lynell Burmark	</td></tr>
 		<tr><td>	10:00-10:10	</td><td>	break	</td><td>	break	</td><td>	break	</td><td>	break	</td></tr>
 		<tr><td>	10:10-11:40	</td><td>	sessions	</td><td>	sessions	</td><td>	sessions	</td><td>	sessions	</td></tr>
 		<tr><td>	11:40-12:40	</td><td>	lunch	</td><td>	lunch	</td><td>	lunch	</td><td>	lunch	</td></tr>
@@ -219,7 +219,38 @@
 </div><!--col-md-8 row 2-->
 </section><!--row-2-->
 </div><!-- container row-2 -->
+<section class="container">
+<section class="ltblue well">
+                                <div style="color:#522c8f;">
+                                    <hr color="#5ca820" height="8px">
+                                    	<h1 style="text-align:center;font-family:Futura, Arial,sans-serif;">Prepare for #CMSSI14</h1>
+                                    <hr color="#5ca820" height="8px">
+									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">1. Make sure you bring a charged electronic device.</h2></p> 
+                                    	<p style="font-family:Arial,sans-serif;"><strong>SMARTPHONE:</strong> To Access the CPCC Guest network you will need to be able to receive a text message for a unique access code.<sup><small>*</small></sup></p>  
+                                    	<p style="font-family:Arial,sans-serif;"><strong>TABLET or LAPTOP (iPad, Revolve, Chromebook):</strong> Though some sessions will be in computer labs, most are in classroom and lecture halls.</p>
+                                    	<p style="font-family:Arial,sans-serif;"><sup>*</sup><small>Assistance and alternative options will be provided at the information table in the Worrell building.</small></p>
+	
+                                    <hr color="#ed341f" height="5px">
+									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">2. Sign into Google.com using your CMS account.</h2></p> 
+                                    	<p style="font-family:Arial,sans-serif;">Attendance and session materials are only available through your CMS Google account.</p>
+                                    	<p style="font-family:Arial,sans-serif;">Forgot your password? Please email <a href="mailto:helpdesk@cms.k12.nc.us?subject=Please%20Reset%20my%20Google%20Password&amp;body=Please%20Reset%20my%20Google%20Password" data-rel="external">helpdesk@cms.k12.nc.us</a></p>
+                                    <hr color="#4460a8" height="5px">
+									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">3. For quick attendance tracking, scan a QR code<sup>*</sup>.</h2></p> 
+                                    	<p style="font-family:Arial,sans-serif;"><strong>QR Scan apps for Smartphones:</strong></p>
+                                    		<p style="font-family:Arial,sans-serif;text-align:center;">
+                                    			<a href="https://itunes.apple.com/us/app/i-nigma-qr-code-data-matrix/id388923203?mt=8" target="_blank">Apple: iOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    			<a href="https://play.google.com/store/apps/details?id=com.threegvision.products.inigma.Android" target="_blank">Android: Google Play</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    			<a href="http://www.windowsphone.com/en-us/store/app/i-nigma/828c4e78-1d2b-4fd2-ad22-fde9c553e263" target="_blank">Windows Phone</a>
+											</p>																				
+										<p style="font-family:Arial,sans-serif;"><sup>*</sup><small>Alternative means to the electronic attendance will be provided when needed.</small></p>	
+                                    </tr>
+                                    <hr color="#5ca820" height="5px">
+                                    <tr>
+                                </div>
+</section>
+</section>
 </section><!-- ltpurple -->
+
 <div style="visibility:hidden;"><h1>CMS Summer Institute 2014</h1><br><h2>Transforming Learning for Every Student</h2></div><!-- H1 text --> 
 <br><br>
 <a href="http://www.w3.org/html/logo/">

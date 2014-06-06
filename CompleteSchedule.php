@@ -42,7 +42,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -67,7 +69,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -92,7 +96,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -117,7 +123,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -145,7 +153,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -170,7 +180,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -195,7 +207,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -220,7 +234,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -248,7 +264,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -273,7 +291,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -298,7 +318,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -323,7 +345,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -351,7 +375,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      
      				</section><!-- well-->
 				</div><!-- col-md-4 -->
@@ -376,7 +402,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
        				</section><!-- well-->
 
 				</div><!-- col-md-4 -->
@@ -401,7 +429,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
 
      				</section><!-- well-->
      				 
@@ -427,7 +457,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
       				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -455,7 +487,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
 				</div><!-- col-md-4 -->
 			<?php $i++;
@@ -479,7 +513,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
        				</section><!-- well-->
 
 				</div><!-- col-md-4 -->
@@ -504,7 +540,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
 
      				</section><!-- well-->
      				 
@@ -530,7 +568,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
       				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -558,7 +598,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
 				</div><!-- col-md-4 -->
 			<?php $i++;
@@ -582,7 +624,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
        				</section><!-- well-->
 
 				</div><!-- col-md-4 -->
@@ -607,7 +651,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
 
      				</section><!-- well-->
      				 
@@ -633,7 +679,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
       				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -661,7 +709,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      
      				</section><!-- well-->
 				</div><!-- col-md-4 -->
@@ -686,7 +736,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
        				</section><!-- well-->
 
 				</div><!-- col-md-4 -->
@@ -711,7 +763,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
 
      				</section><!-- well-->
      				 
@@ -737,7 +791,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
       				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->
@@ -765,7 +821,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
      				</section><!-- well-->
 				</div><!-- col-md-4 -->
 			<?php $i++;
@@ -789,7 +847,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
        				</section><!-- well-->
 
 				</div><!-- col-md-4 -->
@@ -814,7 +874,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
 
      				</section><!-- well-->
      				 
@@ -840,7 +902,9 @@ include "includes/callAllDates.php";
 				<div class="col-md-4">
      				<section class="well well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
+						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+     										
       				</section><!-- well-->
      				 
 				</div><!-- col-md-4 -->

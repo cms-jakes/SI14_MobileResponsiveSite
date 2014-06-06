@@ -1,4 +1,4 @@
-<?php include "includes/header.php"; ?>
+<?php include "includes/lcheader.php"; ?>
 
 <body id="LCPoster">
 
