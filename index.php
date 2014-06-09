@@ -7,9 +7,7 @@
     		<div class="center">
 	      		<img src="images/SI_LogoTop.png" style="height:370px" class="thumbnail img-responsive center" >
 			</div>
-		</div><!-- Row1 Column 1-->
-		<div class="sidebar col-md-6" id="R1C2">
-			<div class="well green well-sm keynote-carousel"><!-- Keynote Promo-->
+					<div class="well green well-sm keynote-carousel"><!-- Keynote Promo-->
 				<section class="clear-fix">
 				<div class="center"><h2>Keynote Presenters</h2></div>
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -72,10 +70,49 @@
     						<span class="glyphicon glyphicon-chevron-right"></span>
   						</a><!-- Controls -->
 				</div><!-- id carousel-->
-				</session><!-- container-->
-				<br>&nbsp
-			</section>
+				</section><!-- container-->
+				
 		</div>	<!-- Keynote Promo -->	
+		<br>&nbsp	
+		</div><!-- Row1 Column 1-->
+		<div class="col-md-6" id="R1C2">
+<section class="blue well">
+                                <div >
+                                    	<h2 style="text-align:center;font-family:Futura, Arial,sans-serif;">Prepare for #CMSSI14</h2>
+                                    <hr color="#5ca820" height="8px">
+									<ol class="prepare">
+									<li><h3>Make sure you bring a charged electronic device.</h3> 
+                                    	<p ><strong>SMARTPHONE:</strong> To Access the CPCC Guest network you will need to be able to receive a text message for a unique access code.<sup><small>*</small></sup></p>  
+                                    	<p ><strong>TABLET or LAPTOP (iPad, Revolve, Chromebook):</strong> Though some sessions will be in computer labs, most are in classroom and lecture halls.</p>
+                                    	<p ><sup>*</sup><small>Assistance and alternative options will be provided at the information table in the Worrell building.</small></p>
+									</li>
+									<li><h3 style="font-family:Futura, Arial,sans-serif;">Sign into Google.com using your CMS account.</h3> 
+                                    	<p>Attendance and session materials are only available through your CMS Google account.</p>
+                                    	<p>Forgot your password? Please email <a href="mailto:helpdesk@cms.k12.nc.us?subject=Please%20Reset%20my%20Google%20Password&amp;body=Please%20Reset%20my%20Google%20Password" data-rel="external">helpdesk@cms.k12.nc.us</a></p>
+                                    </li>
+                                    <li><h3 style="font-family:Futura, Arial,sans-serif;">For quick attendance tracking, scan a QR code<sup>*</sup>.</h3>
+                                    	<p><strong>QR Scan apps for Smartphones:</strong></p>
+                                    		<table class="table table-condenced">
+                                    			<tr>
+                                    			<td>
+                                    			<a href="https://itunes.apple.com/us/app/i-nigma-qr-code-data-matrix/id388923203?mt=8" target="_blank">Apple: iOS</a>
+                                    			</td>
+                                    			<td>
+                                    			<a href="https://play.google.com/store/apps/details?id=com.threegvision.products.inigma.Android" target="_blank">Android: Google Play</a>
+												</td>
+                                    			<td>
+                                    			<a href="http://www.windowsphone.com/en-us/store/app/i-nigma/828c4e78-1d2b-4fd2-ad22-fde9c553e263" target="_blank">Windows Phone</a>
+                                    			</td>
+                                    			</tr>
+                                    		</table>
+																														
+										<p ><sup>*</sup><small>Alternative means to the electronic attendance will be provided when needed.</small></p>	
+                                    </li>
+                                    </ol>
+                                    
+                                </div>
+</section>
+		<br>&nbsp	
 		</div> <!-- Row 1 Column 2 -->	
 </section><!-- row  1-->
 <section class="row" id="row2">
@@ -118,7 +155,8 @@
 					</div>
 				</section> <!-- DateButtons-->
 			</div><!-- sessionPromo-->
-		</div> <!-- sidebar Row2 Column 1 -->
+		
+				<br>&nbsp	</div> <!-- sidebar Row2 Column 1 -->
 		<div class="col-md-6" id="R2C2">
 			<section class="well well-sm white">
 						<h2 class="center"><sup><span class="badge badge-red">New</span></sup>Presentation Materials Are In Google Drive</h2>
@@ -129,6 +167,7 @@
       						</div>
       					</div>					
 			</section>
+					<br>&nbsp	
 		</div> <!-- Row2 column 2-->			    
 </section><!-- row  2-->
 </div><!-- container row-1 -->
@@ -219,36 +258,7 @@
 </div><!--col-md-8 row 2-->
 </section><!--row-2-->
 </div><!-- container row-2 -->
-<section class="container">
-<section class="ltblue well">
-                                <div style="color:#522c8f;">
-                                    <hr color="#5ca820" height="8px">
-                                    	<h1 style="text-align:center;font-family:Futura, Arial,sans-serif;">Prepare for #CMSSI14</h1>
-                                    <hr color="#5ca820" height="8px">
-									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">1. Make sure you bring a charged electronic device.</h2></p> 
-                                    	<p style="font-family:Arial,sans-serif;"><strong>SMARTPHONE:</strong> To Access the CPCC Guest network you will need to be able to receive a text message for a unique access code.<sup><small>*</small></sup></p>  
-                                    	<p style="font-family:Arial,sans-serif;"><strong>TABLET or LAPTOP (iPad, Revolve, Chromebook):</strong> Though some sessions will be in computer labs, most are in classroom and lecture halls.</p>
-                                    	<p style="font-family:Arial,sans-serif;"><sup>*</sup><small>Assistance and alternative options will be provided at the information table in the Worrell building.</small></p>
-	
-                                    <hr color="#ed341f" height="5px">
-									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">2. Sign into Google.com using your CMS account.</h2></p> 
-                                    	<p style="font-family:Arial,sans-serif;">Attendance and session materials are only available through your CMS Google account.</p>
-                                    	<p style="font-family:Arial,sans-serif;">Forgot your password? Please email <a href="mailto:helpdesk@cms.k12.nc.us?subject=Please%20Reset%20my%20Google%20Password&amp;body=Please%20Reset%20my%20Google%20Password" data-rel="external">helpdesk@cms.k12.nc.us</a></p>
-                                    <hr color="#4460a8" height="5px">
-									<p style="font-family:Arial,sans-serif;"><h2 style="font-family:Futura, Arial,sans-serif;">3. For quick attendance tracking, scan a QR code<sup>*</sup>.</h2></p> 
-                                    	<p style="font-family:Arial,sans-serif;"><strong>QR Scan apps for Smartphones:</strong></p>
-                                    		<p style="font-family:Arial,sans-serif;text-align:center;">
-                                    			<a href="https://itunes.apple.com/us/app/i-nigma-qr-code-data-matrix/id388923203?mt=8" target="_blank">Apple: iOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    			<a href="https://play.google.com/store/apps/details?id=com.threegvision.products.inigma.Android" target="_blank">Android: Google Play</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    			<a href="http://www.windowsphone.com/en-us/store/app/i-nigma/828c4e78-1d2b-4fd2-ad22-fde9c553e263" target="_blank">Windows Phone</a>
-											</p>																				
-										<p style="font-family:Arial,sans-serif;"><sup>*</sup><small>Alternative means to the electronic attendance will be provided when needed.</small></p>	
-                                    </tr>
-                                    <hr color="#5ca820" height="5px">
-                                    <tr>
-                                </div>
-</section>
-</section>
+
 </section><!-- ltpurple -->
 
 <div style="visibility:hidden;"><h1>CMS Summer Institute 2014</h1><br><h2>Transforming Learning for Every Student</h2></div><!-- H1 text --> 

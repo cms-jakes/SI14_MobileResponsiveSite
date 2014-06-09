@@ -127,6 +127,9 @@
 			</div>	<!-- Sponsors Promo -->	
 		</div><!--col-md-6-->
 		</section><!--row-->
+		<section class="center">
+		<a href="images/SLC14Program.pdf" class="btn btn-danger" target="_blank">Download Schedule</a>
+		</section>
 	</div><!-- Jumbotron-->
 
 	<br><br>
@@ -212,7 +215,7 @@
 			<td><h3>Time</h3></td><td><h3>Activity</h3></td>
 		</tr>
 		<tr class="white center">
-			<td><h4>7:30 – 8:00<br>30'</h4></td><td><h4>Coffee and Refreshments</h4></td>
+			<td><h4>7:30 – 8:00<br>30'</h4></td><td><h4>Coffee</h4></td>
 		</tr>
 		<tr class="ltblue center">
 			<td><h4>8:00 - 8:30<br>30'</h4></td><td><h4>Vendor Presenation<br></h4></td>
@@ -245,7 +248,7 @@
 			<td><h4>2:00 - 2:10<br>10’</h4></td><td><h4>Break</h4></td>
 		</tr>
 		<tr class="ltblue center">
-			<td><h4>2:10 - 3:10<br>60’</h4></td><td><h4>School Teams Meet</h4></td>
+			<td><h4>2:10 - 3:10<br>60’</h4></td><td><h4>School Administration Teams Meet<br><a href="LCTeams.php" target="_blank">click for school meeting locations</a></h4></td>
 		</tr>
 		<tr class="white center">
 			<td><h4>3:10 – 3:20<br>5’</h4></td><td><h4>Move to <a href="https://www.cpcc.edu/campuses/central/images/central_map" target="_blank">Grady Cole Center</a></h4></td>

@@ -71,9 +71,43 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 	color:#e5f5fd;
 }
 
+ol.prepare {
+	list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+
+ol.prepare > li{
+    position: relative;
+     
+    background-color: #4460a8;
+}
+ol.prepare > li:before {
+    position: absolute;
+    top: 0;
+    left: -1em;
+    width: 0.94em;
+    height: 0.94em;
+     
+    font-size: 3em;
+    line-height: 0.94;
+    text-align: center;
+    color: #e5f5fd;
+ 
+    background-color: #4460a8;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+}
+
 .bluetext {color:#4460a8;}
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
+.blue a {color:#5ca820 !important; text-decoration:none;}
 .blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
 .blue > p > a {color:#5ca820 !important; text-decoration:none;}
 .blue > p > a:hover {color:#5ca820 !important; text-decoration:none;}
@@ -85,7 +119,6 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .blue > section > div > ul > li > h4 > a:hover {color:#20a82a !important;text-decoration:none;}
 
 .ltblue {background-color:#e5f5fd; color:#522c8f; margin-top:0px; margin-bottom:0px}
-
 .red {background-color:#ed341f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .white {background-color:#fff; color:#522c8f; margin-top:0px; margin-bottom:0px}
 

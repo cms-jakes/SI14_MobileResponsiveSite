@@ -14,7 +14,7 @@
      				<section class="well blue well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
-						<h5><i><?php echo $row['Building'] ?> <?php echo $row['Room'] ?></i></h5>
+						<h5><i><?php echo $row['Building'] ?>, <?php echo $row['Room'] ?></i></h5>
 <!-- Button trigger modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
@@ -75,6 +75,7 @@
      				<section class="well blue well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
  						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><i><?php echo $row['Building'] ?>, <?php echo $row['Room'] ?></i></h5>
 <!-- Button trigger modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
@@ -133,6 +134,7 @@
      				<section class="well blue well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><i><?php echo $row['Building'] ?>, <?php echo $row['Room'] ?></i></h5>
 <!-- Button trigger modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
@@ -191,6 +193,7 @@
      				<section class="well blue well-sm">
 						<h4><?php echo $row['Title'] ?></h4>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>     										
+						<h5><i><?php echo $row['Building'] ?>, <?php echo $row['Room'] ?></i></h5>
 <!-- Button trigger modal -->
 <button class="btn btn-primary" data-toggle="modal" data-target="#<?php echo $row['KEY']?>">
 		Details        
