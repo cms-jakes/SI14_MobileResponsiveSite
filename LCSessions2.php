@@ -63,9 +63,10 @@ if ($db->error) {
 						<p><?php echo $row['Description'] ?></p>
 					</section>
 				</div>
+				<br>
 			<?php $i++;
 			if ($i % 2 === 0) { ?>
-				</section><br> <!-- row -->
+				</section> <!-- row -->
 			<?php }  //endif
 			} //end loop ?>  
 		

@@ -275,6 +275,7 @@
 				<h3>
 					In order to establish a WiFi connection, the CPCC network will send you a text message.  This means you will need a mobile phone that can receive the text with your WiFi password.  <i>Support staff will be available to help you if you don't have a mobile phone.</i>  					
 				</h3>
+				<a href="http://www.cpcc.edu/its/services/students/computer-support/wireless/guest-access" class="btn btn-success" target="_blank">CPCC's Video Tutorial on Guest Network</a>
 			</div>
 		</div>
 		<div class="row">

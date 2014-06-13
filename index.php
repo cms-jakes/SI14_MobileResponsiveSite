@@ -82,26 +82,28 @@
                                     <hr color="#5ca820" height="8px">
 									<ol class="prepare">
 									<li><h3>Make sure you bring a charged electronic device.</h3> 
-                                    	<p ><strong>SMARTPHONE:</strong> To Access the CPCC Guest network you will need to be able to receive a text message for a unique access code.<sup><small>*</small></sup></p>  
+                                    	<p ><strong>SMARTPHONE:</strong> To Access the CPCC Guest network you will need to be able to receive a text message for a unique access code.<sup><small>*</small></sup> <a href="http://www.cpcc.edu/its/services/students/computer-support/wireless/guest-access" class="center btn btn-success btn-xs" target="_blank">CPCC's Video Tutorial on Guest Network</a></p>  
+                                    	
+
                                     	<p ><strong>TABLET or LAPTOP (iPad, Revolve, Chromebook):</strong> Though some sessions will be in computer labs, most are in classroom and lecture halls.</p>
                                     	<p ><sup>*</sup><small>Assistance and alternative options will be provided at the information table in the Worrell building.</small></p>
 									</li>
 									<li><h3 style="font-family:Futura, Arial,sans-serif;">Sign into Google.com using your CMS account.</h3> 
                                     	<p>Attendance and session materials are only available through your CMS Google account.</p>
-                                    	<p>Forgot your password? Please email <a href="mailto:helpdesk@cms.k12.nc.us?subject=Please%20Reset%20my%20Google%20Password&amp;body=Please%20Reset%20my%20Google%20Password" data-rel="external">helpdesk@cms.k12.nc.us</a></p>
+                                    	<p>Forgot your password? Please email <a class="btn btn-success btn-xs" href="mailto:helpdesk@cms.k12.nc.us?subject=Please%20Reset%20my%20Google%20Password&amp;body=Please%20Reset%20my%20Google%20Password" data-rel="external">helpdesk@cms.k12.nc.us</a></p>
                                     </li>
                                     <li><h3 style="font-family:Futura, Arial,sans-serif;">For quick attendance tracking, scan a QR code<sup>*</sup>.</h3>
                                     	<p><strong>QR Scan apps for Smartphones:</strong></p>
-                                    		<table class="table table-condenced">
+                                    		<table class="table table-condenced table-narrow">
                                     			<tr>
                                     			<td>
-                                    			<a href="https://itunes.apple.com/us/app/i-nigma-qr-code-data-matrix/id388923203?mt=8" target="_blank">Apple: iOS</a>
+                                    			<a class="btn btn-success btn-sm" href="https://itunes.apple.com/us/app/i-nigma-qr-code-data-matrix/id388923203?mt=8" target="_blank">Apple:<br>iOS App Store</a>
                                     			</td>
                                     			<td>
-                                    			<a href="https://play.google.com/store/apps/details?id=com.threegvision.products.inigma.Android" target="_blank">Android: Google Play</a>
+                                    			<a class="btn btn-success btn-sm" href="https://play.google.com/store/apps/details?id=com.threegvision.products.inigma.Android" target="_blank">Android:<br>Google Play</a>
 												</td>
                                     			<td>
-                                    			<a href="http://www.windowsphone.com/en-us/store/app/i-nigma/828c4e78-1d2b-4fd2-ad22-fde9c553e263" target="_blank">Windows Phone</a>
+                                    			<a class="btn btn-success btn-sm" href="http://www.windowsphone.com/en-us/store/app/i-nigma/828c4e78-1d2b-4fd2-ad22-fde9c553e263" target="_blank">Windows Phone:<br>Apps</a>
                                     			</td>
                                     			</tr>
                                     		</table>

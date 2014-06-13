@@ -46,14 +46,13 @@ ript>
       <ul class="lc nav navbar-nav">
    		<li><a href="LC.php" class="lc"><span class="glyphicon glyphicon-home"></span> Leadership Conference</a></li>
 		<li class="lc dropdown">
-          <a href="#" class="lc nav dropdown-toggle" data-toggle="dropdown">Sessions<b class="caret"></b></a>
+          <a href="#" class="lc nav dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-list-alt"></span> Sessions</a>
           <ul class="dropdown-menu">
           	<li><a href="LCSessions1.php">Session 1 (June 17th)</a></li>
 			<li><a href="LCSessions2.php">Session 2 (June 17th)</a></li>	
 			<li><a href="LCSessions3.php">Session 3 (June 18th)</a></li>
 		  </ul>
 		</li>
-        <li><a href="ASEP.php" class="lc">ASEP Camp</a></li>
    		<li><a href="index.php" class="lc">CMS Summer Institute</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->

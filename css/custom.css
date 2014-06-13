@@ -19,6 +19,7 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .nt {background-color:#C0C0C0 !important;}
 
 .lc {background-color: #5ca820 !important; color:#522c8f !important;}
+.lcbtn {color: #428bca !important;}
 
 
 @font-face { font-family: "Kimberley"; src: url(http://www.princexml.com/fonts/larabie/ » kimberle.ttf) format("truetype"); } h1 { font-family: "Kimberley", sans-serif }
@@ -46,10 +47,15 @@ nav a {background-color:#522c8f; color:#e5f5fd}
 .f{font-family:"Futura, "Trebuchet MS", Arial, sans-serif";}
 
 .green {background-color:#5ca820 !important; color:#fff !important; margin-bottom:0px}
-.btn-success {background-color:#5ca820 !important; border-color:#52971c !important;}
+.btn-success {background-color:#5ca820 !important;color:#e5f5fd !important; border-color:#52971c !important;}
 .btn-success:hover {background-color:#498619 !important; border-color:#407516 !important;}
 .purple {background-color:#522c8f; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .purple button:hover {background-color:#5ca820 !important;}
+.btn-danger:hover {color:#e5f5fd !important} 
+.btn-danger  {color:#e5f5fd !important} 
+.btn-primary  {color:#e5f5fd !important}
+
+
 .ltpurple {
 /* fallback */
   background-color: #b9aad2;
@@ -107,7 +113,7 @@ ol.prepare > li:before {
 .bluetext {color:#4460a8;}
 .blue {background-color:#4460a8; color:#e5f5fd; margin-top:0px; margin-bottom:0px}
 .blue > h3 > a {color:#5ca820 !important; text-decoration:none;}
-.blue a {color:#5ca820 !important; text-decoration:none;}
+.blue a {color:#5ca820 ; text-decoration:none;}
 .blue > h3 > a:hover {color:#5ca820 !important; text-decoration:none;}
 .blue > p > a {color:#5ca820 !important; text-decoration:none;}
 .blue > p > a:hover {color:#5ca820 !important; text-decoration:none;}
@@ -209,5 +215,5 @@ overflow-y: auto;
 	bottom:-40px;
 }
 
-.modal-footer > button:hover{background-color:#4460a8 !important; color:#e5f5fd}
+.modal-footer > button:hover{background-color:#5ca820 !important; color:#e5f5fd}
 .modal-header > button:hover{background-color:#4460a8 !important; color:#000}

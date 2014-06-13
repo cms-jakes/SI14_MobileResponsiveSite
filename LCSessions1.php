@@ -63,12 +63,12 @@ if ($db->error) {
 						<p><?php echo $row['Description'] ?></p>
 					</section>
 				</div>
+				<br>
 			<?php $i++;
 			if ($i % 2 === 0) { ?>
-				</section><br> <!-- row -->
+				</section><!-- row -->
 			<?php }  //endif
 			} //end loop ?>  
-		
   	</div><!--Session 1-->
 
 <br><br><br><br><br><br>&nbsp<hr><br>

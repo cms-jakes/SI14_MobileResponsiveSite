@@ -31,7 +31,7 @@ include "includes/callAllDates.php";
 <h1>June 16th</h1>	
 <section id="830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -41,9 +41,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
 
      				</section><!-- well-->
      				 
@@ -58,7 +58,7 @@ include "includes/callAllDates.php";
 
 <section id="10:10AM" class="white">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -68,9 +68,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -85,7 +85,7 @@ include "includes/callAllDates.php";
 
 <section id="1240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -95,9 +95,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -112,7 +112,7 @@ include "includes/callAllDates.php";
 
 <section id="220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -122,9 +122,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -142,7 +142,7 @@ include "includes/callAllDates.php";
 <h1>June 17th</h1>	
 <section id="830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -152,9 +152,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -169,7 +169,7 @@ include "includes/callAllDates.php";
 
 <section id="10:10AM" >
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -179,9 +179,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -196,7 +196,7 @@ include "includes/callAllDates.php";
 
 <section id="1240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -206,9 +206,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -223,7 +223,7 @@ include "includes/callAllDates.php";
 
 <section id="220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -233,9 +233,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -253,7 +253,7 @@ include "includes/callAllDates.php";
 <h1>June 18th</h1>	
 <section id="830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -263,9 +263,9 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
-						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
-						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
+						<p><strong><?php echo $row['Title'] ?></strong><br>
+						<?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?><br>
+						<?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></p>     										
      										
      				</section><!-- well-->
      				 
@@ -280,7 +280,7 @@ include "includes/callAllDates.php";
 
 <section id="10:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -290,7 +290,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -307,7 +307,7 @@ include "includes/callAllDates.php";
 
 <section id="1240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -317,7 +317,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -334,7 +334,7 @@ include "includes/callAllDates.php";
 
 <section id="220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -344,7 +344,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -364,7 +364,7 @@ include "includes/callAllDates.php";
 <h1>June 19th</h1>	
 <section id="19830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -374,7 +374,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -391,7 +391,7 @@ include "includes/callAllDates.php";
 
 <section id="1910:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -401,7 +401,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -418,7 +418,7 @@ include "includes/callAllDates.php";
 
 <section id="191240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -428,7 +428,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -446,7 +446,7 @@ include "includes/callAllDates.php";
 
 <section id="19220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -456,7 +456,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -476,7 +476,7 @@ include "includes/callAllDates.php";
 <h1>June 23rd</h1>	
 <section id="23830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -486,7 +486,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -502,7 +502,7 @@ include "includes/callAllDates.php";
 
 <section id="2310:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -512,7 +512,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -529,7 +529,7 @@ include "includes/callAllDates.php";
 
 <section id="231240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -539,7 +539,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -557,7 +557,7 @@ include "includes/callAllDates.php";
 
 <section id="23220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -567,7 +567,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -587,7 +587,7 @@ include "includes/callAllDates.php";
 <h1>June 24th</h1>	
 <section id="24830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -597,7 +597,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -613,7 +613,7 @@ include "includes/callAllDates.php";
 
 <section id="2410:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -623,7 +623,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -640,7 +640,7 @@ include "includes/callAllDates.php";
 
 <section id="241240AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -650,7 +650,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -668,7 +668,7 @@ include "includes/callAllDates.php";
 
 <section id="24220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -678,7 +678,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -698,7 +698,7 @@ include "includes/callAllDates.php";
 <h1>June 25th</h1>	
 <section id="25830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -708,7 +708,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -725,7 +725,7 @@ include "includes/callAllDates.php";
 
 <section id="2510:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -735,7 +735,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -752,7 +752,7 @@ include "includes/callAllDates.php";
 
 <section id="251250AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -762,7 +762,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -780,7 +780,7 @@ include "includes/callAllDates.php";
 
 <section id="25220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -790,7 +790,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -810,7 +810,7 @@ include "includes/callAllDates.php";
 <h1>June 26th</h1>	
 <section id="26830AM">
   
-<h2 class="center">8:30 AM</h2>
+<h3 class="center">8:30 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -820,7 +820,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -836,7 +836,7 @@ include "includes/callAllDates.php";
 
 <section id="2610:10AM">
   
-<h2 class="center">10:10 AM</h2>
+<h3 class="center">10:10 AM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -846,7 +846,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -863,7 +863,7 @@ include "includes/callAllDates.php";
 
 <section id="261260AM">
   
-<h2 class="center">12:40 PM</h2>
+<h3 class="center">2:10 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -873,7 +873,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										
@@ -891,7 +891,7 @@ include "includes/callAllDates.php";
 
 <section id="26220AM">
   
-<h2 class="center">2:20 PM</h2>
+<h3 class="center">3:50 PM</h3>
 <div class="container">
 <?php 
 		$i = 0;
@@ -901,7 +901,7 @@ include "includes/callAllDates.php";
 			<?php } ?>
 				<div class="col-md-4">
      				<section class="well well-sm">
-						<h4><?php echo $row['Title'] ?></h4>
+						<p><?php echo $row['Title'] ?></p>
 						<h5><?php echo $row['StartTime'] ?> to <?php echo $row['EndTime'] ?></h5>
 						<h6><?php echo $row['Building'] ?> : <?php echo $row['Room'] ?></h6>     										
      										

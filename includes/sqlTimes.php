@@ -42,7 +42,7 @@
       </div>
       <div class="modal-footer blue">
         <button type="button" class="btn btn-link" data-dismiss="modal">Back</button>
-        <a href="<?php echo $row['AddToCalendar']?>" target="_blank" class="btn btn-danger">Add to Your Google Calendar</a>
+        <a href="<?php echo $row['AddToCalendar']?>" target="_blank" class="btn btn-danger btn-active" role="button">Add to Your Google Calendar</a>
 <br><i>NOTE: Seating is limited and adding sessions to your Google Calendar does not reserve a seat at the session. Adding to your calendar is for your planning purposes only.</i>
 
       </div>

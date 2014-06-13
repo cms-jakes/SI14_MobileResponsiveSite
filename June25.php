@@ -1,6 +1,8 @@
 <?php 
 $date= "June 25th";
 include "includes/callDate.php"; 
+include "includes/callCanceled.php";
+
 ?>
 
 <?php include "includes/header.php"; ?>
@@ -12,9 +14,22 @@ include "includes/callDate.php";
 <?php include "includes/secondaryhead.php"; ?>
 
 <div>
-<section class="purple center">
-	<h1>Schedule for June 25th</h1>	
-		<div class="navbar">
+<section class="purple">
+	<h1 class="center">Schedule for June 25th</h1>	
+	<hr>
+	<div class="container canceled red well-sm">
+		<h4 ><i class="fa fa-warning"></i> The following sessions have been canceled <i class="fa fa-warning"></i></h4>
+		<ul>
+		<?php 
+		$i = 0;
+		while ($row = $resultsCan->fetch_assoc()) { ?>
+						<li><?php echo $row['StartTime'] ?>  <?php echo $row['Title'] ?></li>					
+							<?php $i++;
+			} //end loop ?>  
+		</ul>		
+	</div> <!-- Canceled -->	
+	<hr>
+		<div class="navbar center">
       	<ul class="nav navbar-nav">
 			<li><a href="#830AM" data-toggle="tab">8:30 AM</a></li>			
 			<li><a href="#1010AM" data-toggle="tab">10:10 AM</a></li>

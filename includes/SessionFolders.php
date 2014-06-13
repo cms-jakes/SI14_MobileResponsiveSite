@@ -16,7 +16,7 @@
 	    <div class="thumbnail">
       		<img src="images/GDrive.png" alt="Google Drive Icon" />
       <div class="caption">
-        <p class="center"><a class="btn btn-danger btn-lg" role="button" href="https://drive.google.com/a/cmslearns.org/folderview?id=0B8i85lhQrV2wMS00ZDljOTIzZS03YTM0LTRiZWItODhlNC1kMDJjYjc5NmIzNWE&usp=sharing#" target="_blank">Access the Folders</a></p>
+        <a class="btn btn-danger btn-lg" href="https://drive.google.com/a/cmslearns.org/folderview?id=0B8i85lhQrV2wMS00ZDljOTIzZS03YTM0LTRiZWItODhlNC1kMDJjYjc5NmIzNWE&usp=sharing#" target="_blank">Access the Folders</a>
       </div>
       </div>
     </div>

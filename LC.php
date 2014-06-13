@@ -127,8 +127,14 @@
 			</div>	<!-- Sponsors Promo -->	
 		</div><!--col-md-6-->
 		</section><!--row-->
-		<section class="center">
-		<a href="images/SLC14Program.pdf" class="btn btn-danger" target="_blank">Download Schedule</a>
+		<section class="row">
+		<br><br>
+		<div class="col-sm-6 center">
+		<a href="images/SLC14Program.pdf" class="btn btn-danger" target="_blank">Download Schedule Overview</a><br>&nbsp;
+		</div>
+		<div class="col-sm-6 center">
+		<a href="images/LCBreakoutSessions.pdf" class="btn btn-danger" target="_blank">Download Breakout Sessions</a>
+		</div>
 		</section>
 	</div><!-- Jumbotron-->
 
@@ -183,7 +189,7 @@
 		<tr class="white center">
 			<td><h4>1:10 - 2:25<br>75’</h4></td>
 			<td>
-			<a href="LCSessions.php#Session1" class="btn btn-link">
+			<a href="LCSessions1.php" class="btn btn-link lcbtn">
   					<h4 class="modal-title">Breakout Sessions 1</h4>
 			</a>
 			</td>
@@ -194,7 +200,7 @@
 		<tr class="white center">
 			<td><h4>2:40 - 3:55<br>75’</h4></td>
 			<td>
-			<a href="LCSessions.php#Session2" class="btn btn-link">
+			<a href="LCSessions2.php" class="btn btn-link lcbtn">
   					<h4 class="modal-title">Breakout Sessions 2</h4>
 			</a>
 			</td>
@@ -238,8 +244,8 @@
 		<tr class="ltblue center">
 			<td><h4>12:45 - 2:00<br>75’</h4></td>
 			<td>
-			<a href="LCSessions.php#Session3" class="btn btn-link">
-  					<h4 class="modal-title">Breakout Sessions 3</h4>
+			<a href="LCSessions3.php" class="btn btn-link lcbtn">
+  					<h4 class="lcbtn">Breakout Sessions 3</h4>
 			</a>
 			
 			</td>
@@ -318,4 +324,4 @@
 
 <br><br><br><br>
 </div>
-<?php include "includes/footer.php" ?> 	
+<?php include "includes/footer.php" ?> 
